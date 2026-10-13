@@ -1,0 +1,7 @@
+{
+  "budget_means_and_intervals_recomputed": true,
+  "ablation_intervals_recomputed": true,
+  "ablation_norms_and_pairing_verified": true,
+  "airfoil_and_domain_tables": "extracted from archived aggregate; not a new field evaluation",
+  "airfoil_calibration": "excluded by author request"
+}

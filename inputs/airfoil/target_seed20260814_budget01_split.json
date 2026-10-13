@@ -1,0 +1,41 @@
+{
+  "train": [
+    "cyclic_070_level5_window.h5"
+  ],
+  "validation": [
+    "cyclic_083_level5_window.h5",
+    "cyclic_233_level5_window.h5",
+    "cyclic_117_level5_window.h5",
+    "cyclic_245_level5_window.h5",
+    "cyclic_107_level5_window.h5",
+    "cyclic_220_level5_window.h5",
+    "cyclic_071_level5_window.h5",
+    "cyclic_067_level5_window.h5",
+    "cyclic_019_level5_window.h5",
+    "cyclic_236_level5_window.h5",
+    "cyclic_113_level5_window.h5",
+    "cyclic_232_level5_window.h5",
+    "cyclic_173_level5_window.h5",
+    "cyclic_039_level5_window.h5",
+    "cyclic_109_level5_window.h5",
+    "cyclic_204_level5_window.h5"
+  ],
+  "test": [
+    "cyclic_214_level5_window.h5",
+    "cyclic_094_level5_window.h5",
+    "cyclic_175_level5_window.h5",
+    "cyclic_154_level5_window.h5",
+    "cyclic_179_level5_window.h5",
+    "cyclic_030_level5_window.h5",
+    "cyclic_239_level5_window.h5",
+    "cyclic_059_level5_window.h5",
+    "cyclic_024_level5_window.h5",
+    "cyclic_161_level5_window.h5",
+    "cyclic_122_level5_window.h5",
+    "cyclic_135_level5_window.h5",
+    "cyclic_064_level5_window.h5",
+    "cyclic_159_level5_window.h5",
+    "cyclic_124_level5_window.h5",
+    "cyclic_252_level5_window.h5"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "module": "codiffuse_Schwarz_Airfoil.evaluate_fixed_cadence_global_rollout",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Airfoil.rollout_absolute_robin_latentddm",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Airfoil.rollout_absolute_robin_sni",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Darcy.evaluate_global",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Darcy.evaluate_input_correction_latentddm",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Darcy.evaluate_weighted_pou_sni_initializations",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Darcy.train_global",
+    "returncode": 0,
+    "error": ""
+  },
+  {
+    "module": "codiffuse_Schwarz_Darcy.train_input_correction_latentddm",
+    "returncode": 0,
+    "error": ""
+  }
+]

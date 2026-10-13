@@ -1,0 +1,113 @@
+% Manuscript excerpt; compile within main.tex for macros and references.
+\subsection{Parameter counts and computational cost}
+\label{app:adaptation-compute}
+
+We distinguish parameters used in a forward prediction from parameters updated
+during adaptation. Let $P_S$, $P_C$, and $P_A$ denote the parameter counts of
+the pretrained local operator, composition module, and optional local
+adapters. One \lddm{} prediction uses $P_S+P_C$ distinct parameters. Sharing
+the local operator across $N$ subdomains and two evaluations reuses its
+weights; it does not multiply the parameter count by $2N$. Composition-only
+adaptation updates $P_C$ parameters while retaining the full local operator
+in the forward computation.
+
+For the Darcy source checkpoint, $P_S=3{,}957{,}666$ and
+$P_C=796{,}400$, for a total of $4{,}754{,}066$ parameters. The composition
+module contains 56,160 field-encoder, 141,312 spatial-encoder, and 598,928
+communication parameters. Thus, composition adaptation updates 16.75\% of
+the parameters used in prediction. Our matched local-adapter control inserts
+low-rank updates into the local convolutional kernels. A convolution with
+$C_{\rm in}$ input channels, $C_{\rm out}$ output channels, kernel size $k$,
+and rank $r$ adds $r(k^2 C_{\rm in}+C_{\rm out})$ parameters. Rank 24,
+capped at rank 1 for the two scalar output layers, gives $P_A=810{,}794$,
+1.81\% more trainable parameters than composition adaptation.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{\textbf{Darcy parameter accounting.} Counts are distinct parameters,
+not multiplied by the number of subdomains or local calls. The local-adapter
+row counts the unmerged training representation; its updates can be merged
+into the original convolutional kernels for inference.}
+\label{tab:darcy-parameter-accounting}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Adaptation & Forward parameters & Updated local & Updated composition \\
+\midrule
+Composition only & 4,754,066 & 0 & 796,400 \\
+Local adapters only & 5,564,860 & 810,794 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To separate the two sources of work, let $F_S(N,q)=Nf_S(q)$ be the forward
+work of one local-operator evaluation over $N$ subdomains with $q$ grid points
+each, and let $F_C(N,q)$ include token encoding, communication, and correction
+decoding. With fixed input channels and trace resolution, composition depth
+$L$, and token width $d$, the present dense-attention composer has
+\begin{equation}
+ F_C(N,q)=O\!\left(Nq+LNd^2+LN^2d\right),\qquad
+ F_{\rm pred}=2F_S(N,q)+F_C(N,q)+O(Nq).
+ \label{eq:composition-forward-cost}
+\end{equation}
+The last term covers assembly. The centered global and diagonal executions
+of the composition stack change constants without changing this order. For
+the fixed-resolution local CNN, the leading convolutional work is
+$f_S(q)=\Theta(qP_{S,\rm conv})$, where $P_{S,\rm conv}$ counts convolutional
+kernel weights; scalar-conditioning and elementwise operations add lower-order
+terms for this architecture. Other local backbones can use a different
+$f_S(q)$ without changing the two-call composition structure. The composition
+parameter count is independent of $N$, although its dense attention costs
+$O(N^2d)$ per layer.
+
+Forward work alone does not describe adaptation. Write $B_S^x$ for the
+backward work needed to differentiate a local response with respect to its
+corrected input, and $B_C^\phi$ for backpropagation that computes composition
+parameter gradients. For composition-only adaptation, the training-step work,
+excluding common loss evaluation and optimizer overhead, is
+\begin{equation}
+ T_{\rm comp}=F_S^{(1)}+F_C+F_S^{(2)}
+              +B_S^{x,(2)}+B_C^\phi.
+ \label{eq:composition-training-cost}
+\end{equation}
+The first local response requires no backward pass. The second uses frozen
+weights but must transmit gradients from the field loss to the predicted
+input correction. Freezing therefore removes local weight-gradient
+computation, not all differentiation through the local operator.
+
+For local-adapter adaptation, let $\widetilde F_S$ include the adapter forward
+work, $B_{S,A}^{(1)}$ include adapter-gradient computation through the first
+local response, $B_{S,A}^{x,(2)}$ include both adapter and corrected-input
+gradients through the second response, and $B_C^z$ differentiate the frozen
+composer with respect to its preliminary local fields. Then
+\begin{equation}
+ T_{\rm local}=\widetilde F_S^{(1)}+F_C+\widetilde F_S^{(2)}
+                +B_{S,A}^{(1)}+B_C^z+B_{S,A}^{x,(2)}.
+ \label{eq:local-adapter-training-cost}
+\end{equation}
+Both local evaluations share the same adapters. For our implementation,
+which forms a dense updated convolutional kernel, adapter training also
+requires differentiating that effective kernel. Equal trainable parameter
+counts therefore do not imply equal backward work. These expressions omit
+activation-checkpoint recomputation, which trades additional forward work
+for lower activation storage and is recorded separately in the ablation
+protocol.
+
+Gradient and Adam-moment storage scales as $O(P_C)$ for composition
+adaptation and $O(P_A)$ for local adapters, compared with $O(P_S)$ when
+fine-tuning the full local operator. The two matched arms therefore have
+similar optimizer-state requirements. Total memory also includes the model
+weights and activations: composition adaptation retains or recomputes the
+second local evaluation for input gradients, while local adaptation must
+support gradients through both local evaluations. Peak memory depends on
+tile batching and checkpointing as well as parameter counts.
+
+This separation motivates a larger pretrained local physics model with a
+compact composition module. If $P_S$ grows while $P_C$ remains fixed, the
+updated fraction $P_C/(P_S+P_C)$ decreases and composition optimizer storage
+remains unchanged. Adaptation still incurs forward and input-gradient work
+through the large local operator; it is not $O(P_C)$ computation. The present
+CNN gives a moderate $P_S/P_C\approx4.97$ ratio. Scaling this advantage to
+larger local backbones is a design motivation, rather than an empirical
+scaling result established by these experiments.
+

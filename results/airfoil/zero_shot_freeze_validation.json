@@ -1,0 +1,67 @@
+{
+  "contract": "airfoil_pitch_rate_ood_zero_shot_freeze_v1",
+  "selection_partition": "source_and_target_validation",
+  "selection_scope": "zero_shot_source_checkpoints_only",
+  "methods": {
+    "latent": {
+      "checkpoint": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/source_state_latentddm_rollout_calibrated_v2/checkpoint_best.pt",
+      "checkpoint_sha256": "63b78b5235ab9bb10ec5c1bd01c7e14c248e5f113b39541d1ee02d088e792a0f",
+      "validation_artifacts": [
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/latent/budget00/seed20260814/id_validation.json",
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/latent/budget00/seed20260814/ood_validation.json"
+      ]
+    },
+    "point": {
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/source_pretrain_v1/point/checkpoint.pt",
+      "checkpoint_sha256": "b2fe2447932764c65302d455a216eace9cdc5b2f7a48d67d406dd215a1b66951",
+      "validation_artifacts": [
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/point/budget00/seed20260814/id_validation.json",
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/point/budget00/seed20260814/ood_validation.json"
+      ]
+    },
+    "slice": {
+      "checkpoint": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/source_pretrain_v1/slice/checkpoint.pt",
+      "checkpoint_sha256": "f4f0b3268575db19053d793b8b2395497b9ec541e673ca1fe0163e5e3b526e55",
+      "validation_artifacts": [
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/slice/budget00/seed20260814/id_validation.json",
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/slice/budget00/seed20260814/ood_validation.json"
+      ]
+    },
+    "patch": {
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/source_pretrain_v1/patch/checkpoint.pt",
+      "checkpoint_sha256": "e2ccb8258f5a76147d6d3d95ec1a58cedee622e5f51bae4f66af0058e338ced0",
+      "validation_artifacts": [
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/patch/budget00/seed20260814/id_validation.json",
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/patch/budget00/seed20260814/ood_validation.json"
+      ]
+    },
+    "sni": {
+      "checkpoint": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/local_point_robin_source_v1/checkpoint_best.pt",
+      "checkpoint_sha256": "2b7f48c55bc138a55ed4db091f168bb4fccec5f2b15e85815d3809f39df3c7d7",
+      "sweeps": 1,
+      "relaxation": 0.025,
+      "calibration": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/source_local_endpoint_selected_v1.json",
+      "calibration_sha256": "51fa867989e45d1907b84a5bcb320913c60c7900312c1a2504ee05eb72a7c144",
+      "validation_artifacts": [
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/sni_depth_validation/id_sweeps1.json",
+        "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/outputs/pitch_rate_ood_v1/evaluation_v2/sni_depth_validation/ood_sweeps1.json"
+      ]
+    }
+  },
+  "evaluation": {
+    "horizon": 20,
+    "starts_per_trajectory": 3,
+    "model_owned_rollout": true,
+    "reference_used_by_inference": false,
+    "source_split": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/layouts/pitch_rate_ood_v1/source_split.json",
+    "source_split_sha256": "46072004fc869cf1be4fff9ed860f036b5c61d703f400aefdf6bb5e49af038e7",
+    "target_split": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Airfoil/layouts/pitch_rate_ood_v1/target_seed20260814_budget01_split.json",
+    "target_split_sha256": "77d0a20769ecebb8845bb035e4507566da7dc61afcec627772447e500f2caef6",
+    "uncertainty_unit": "trajectory"
+  },
+  "pool_counts": {
+    "source": 179,
+    "target": 77
+  },
+  "protected_test_trajectories_opened": 0
+}

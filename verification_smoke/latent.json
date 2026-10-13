@@ -1,0 +1,74 @@
+{
+  "contract": "darcy_input_correction_matched_test_v1",
+  "split": "test",
+  "protected_test_cases_opened": 1,
+  "target_used_by_inference": false,
+  "pde_residual_used_by_inference": false,
+  "assembly": "normalized_overlap",
+  "tau": 1.0,
+  "cases": 1,
+  "tile_count": 64,
+  "zero_message_local_core_max_abs": 0.0,
+  "local_checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/sni_face_local_seed20260806/checkpoint.pt",
+  "local_checkpoint_sha256": "1a200548bec3d3aeaf345a87a2006bc2877c4453abe430f61abf2a928c50d9d1",
+  "composer_checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sweep/8x8/m16/latent_seed20260918/checkpoint_best.pt",
+  "composer_checkpoint_sha256": "1c7719c5e96785898ab5776d4a4d647ea36b6bd6a6ffdf25e9214d992466f975",
+  "communication_depth": 4,
+  "within_round_execution": "all local subdomains are GPU-batched",
+  "sni_sweeps_are_sequential": true,
+  "summary": {
+    "init_sni_0": {
+      "cases": 1,
+      "relative_l2_mean": 0.6437352895736694,
+      "energy_relative_error_mean": 0.20412278175354004,
+      "residual_rms_mean": 0.0406942293047905,
+      "seconds_mean": 0.25655534901306964,
+      "sequential_local_rounds_mean": 1.0
+    },
+    "latentddm": {
+      "cases": 1,
+      "relative_l2_mean": 0.071026511490345,
+      "energy_relative_error_mean": 0.036613162606954575,
+      "residual_rms_mean": 0.013141361996531487,
+      "seconds_mean": 0.3410112820274662,
+      "sequential_local_rounds_mean": 2.0
+    },
+    "local_core": {
+      "cases": 1,
+      "relative_l2_mean": 0.6437352895736694,
+      "energy_relative_error_mean": 0.20412278175354004,
+      "residual_rms_mean": 0.0406942293047905,
+      "seconds_mean": 0.25655534901306964,
+      "sequential_local_rounds_mean": 1.0
+    }
+  },
+  "rows": [
+    {
+      "method": "local_core",
+      "case_index": 0,
+      "relative_l2": 0.6437352895736694,
+      "energy_relative_error": 0.20412278175354004,
+      "residual_rms": 0.0406942293047905,
+      "seconds": 0.25655534901306964,
+      "sequential_local_rounds": 1
+    },
+    {
+      "method": "latentddm",
+      "case_index": 0,
+      "relative_l2": 0.071026511490345,
+      "energy_relative_error": 0.036613162606954575,
+      "residual_rms": 0.013141361996531487,
+      "seconds": 0.3410112820274662,
+      "sequential_local_rounds": 2
+    },
+    {
+      "method": "init_sni_0",
+      "case_index": 0,
+      "relative_l2": 0.6437352895736694,
+      "energy_relative_error": 0.20412278175354004,
+      "residual_rms": 0.0406942293047905,
+      "seconds": 0.25655534901306964,
+      "sequential_local_rounds": 1
+    }
+  ]
+}

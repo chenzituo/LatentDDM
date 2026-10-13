@@ -1,0 +1,707 @@
+{
+  "contract": "darcy_four_scale_accuracy_time_validation_v1",
+  "timing": "CUDA-synchronized complete-domain seconds per case; local tiles batched within each round; SNI sweeps sequential",
+  "protected_test_cases_opened": 0,
+  "scales": {
+    "3x3": {
+      "evaluation": "validation",
+      "cases": 250,
+      "checkpoint_policy": "4x4-adapted checkpoints replayed on 3x3",
+      "methods": {
+        "LatentDDM": {
+          "error": {
+            "mean": 0.0660792775762578,
+            "ci95_low": 0.064280623733688,
+            "ci95_high": 0.0678779314188276,
+            "seed_count": 3
+          },
+          "seconds": {
+            "mean": 0.005943928224345048,
+            "ci95_low": 0.0059042006848060435,
+            "ci95_high": 0.005983655763884052,
+            "seed_count": 3
+          }
+        },
+        "Point": {
+          "error": {
+            "mean": 0.11432318978508314,
+            "ci95_low": 0.10918866111945756,
+            "ci95_high": 0.11945771845070872,
+            "seed_count": 3
+          },
+          "seconds": {
+            "mean": 0.0019581196258465446,
+            "ci95_low": 0.0019445119793570617,
+            "ci95_high": 0.001971727272336028,
+            "seed_count": 3
+          }
+        },
+        "Slice": {
+          "error": {
+            "mean": 0.0803292247603337,
+            "ci95_low": 0.0761084962593235,
+            "ci95_high": 0.0845499532613439,
+            "seed_count": 3
+          },
+          "seconds": {
+            "mean": 0.006752241282413403,
+            "ci95_low": 0.0067224372017826075,
+            "ci95_high": 0.006782045363044199,
+            "seed_count": 3
+          }
+        },
+        "Patch": {
+          "error": {
+            "mean": 0.13137141026059787,
+            "ci95_low": 0.12472275595350305,
+            "ci95_high": 0.1380200645676927,
+            "seed_count": 3
+          },
+          "seconds": {
+            "mean": 0.0019924533969412246,
+            "ci95_low": 0.0019545646966661447,
+            "ci95_high": 0.0020303420972163045,
+            "seed_count": 3
+          }
+        }
+      },
+      "sni_accuracy_time_curve": [
+        {
+          "sweep": 1,
+          "relative_l2_mean": 0.38659824565052986,
+          "seconds_per_case_mean": 0.0054333250522613525
+        },
+        {
+          "sweep": 2,
+          "relative_l2_mean": 0.2851662442535162,
+          "seconds_per_case_mean": 0.008038313055410981
+        },
+        {
+          "sweep": 3,
+          "relative_l2_mean": 0.21263392966240643,
+          "seconds_per_case_mean": 0.01063885117508471
+        },
+        {
+          "sweep": 4,
+          "relative_l2_mean": 0.16194253573194145,
+          "seconds_per_case_mean": 0.01325085299089551
+        },
+        {
+          "sweep": 5,
+          "relative_l2_mean": 0.12459888581931591,
+          "seconds_per_case_mean": 0.015850305829197168
+        },
+        {
+          "sweep": 6,
+          "relative_l2_mean": 0.09732879301346839,
+          "seconds_per_case_mean": 0.01844894456677139
+        },
+        {
+          "sweep": 7,
+          "relative_l2_mean": 0.07696905111521482,
+          "seconds_per_case_mean": 0.021053300386294722
+        },
+        {
+          "sweep": 8,
+          "relative_l2_mean": 0.06183266593143344,
+          "seconds_per_case_mean": 0.023656209839507936
+        },
+        {
+          "sweep": 9,
+          "relative_l2_mean": 0.05045846705138683,
+          "seconds_per_case_mean": 0.026268288074061275
+        },
+        {
+          "sweep": 10,
+          "relative_l2_mean": 0.04190291991457343,
+          "seconds_per_case_mean": 0.028871627198532222
+        },
+        {
+          "sweep": 11,
+          "relative_l2_mean": 0.03540746590495109,
+          "seconds_per_case_mean": 0.031472098322585226
+        },
+        {
+          "sweep": 12,
+          "relative_l2_mean": 0.03045977077074349,
+          "seconds_per_case_mean": 0.03407270211353898
+        },
+        {
+          "sweep": 13,
+          "relative_l2_mean": 0.026664734564721584,
+          "seconds_per_case_mean": 0.036675047799944877
+        },
+        {
+          "sweep": 14,
+          "relative_l2_mean": 0.02374606642499566,
+          "seconds_per_case_mean": 0.039276213001459837
+        },
+        {
+          "sweep": 15,
+          "relative_l2_mean": 0.02149372653476894,
+          "seconds_per_case_mean": 0.04187446103803814
+        },
+        {
+          "sweep": 16,
+          "relative_l2_mean": 0.0197505091605708,
+          "seconds_per_case_mean": 0.04447721054777503
+        }
+      ]
+    },
+    "4x4": {
+      "evaluation": "validation",
+      "cases": 64,
+      "checkpoint_policy": "scale-matched adaptation with 16 labels",
+      "methods": {
+        "LatentDDM": {
+          "error": {
+            "mean": 0.06398392957635224,
+            "ci95_low": 0.0598427574368543,
+            "ci95_high": 0.0681990649914951,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.01207891441360213,
+            "ci95_low": 0.007482273654773053,
+            "ci95_high": 0.018410863857207003,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Point": {
+          "error": {
+            "mean": 0.13033762081371,
+            "ci95_low": 0.12408359158725943,
+            "ci95_high": 0.13663108934900567,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.0044908108002346125,
+            "ci95_low": 0.0024741581382452674,
+            "ci95_high": 0.006797540503888892,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Slice": {
+          "error": {
+            "mean": 0.10169867005121584,
+            "ci95_low": 0.09737555150107557,
+            "ci95_high": 0.10617164999712259,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.01204624732145021,
+            "ci95_low": 0.010001025717671534,
+            "ci95_high": 0.014542059522574391,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Patch": {
+          "error": {
+            "mean": 0.11729458653523277,
+            "ci95_low": 0.11242618558753747,
+            "ci95_high": 0.12232075891709732,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.005235811672719137,
+            "ci95_low": 0.002162422359752251,
+            "ci95_high": 0.008695072064481715,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        }
+      },
+      "sni_accuracy_time_curve": [
+        {
+          "tau": 1.0,
+          "sweep": 1,
+          "relative_l2_mean": 0.4379828223027289,
+          "error_ratio_to_latentddm": 6.845200430837599,
+          "seconds_per_case_mean": 0.009144240386376623
+        },
+        {
+          "tau": 1.0,
+          "sweep": 2,
+          "relative_l2_mean": 0.3321333818603307,
+          "error_ratio_to_latentddm": 5.190887525343294,
+          "seconds_per_case_mean": 0.012154352218203712
+        },
+        {
+          "tau": 1.0,
+          "sweep": 3,
+          "relative_l2_mean": 0.2542696404270828,
+          "error_ratio_to_latentddm": 3.9739609947473133,
+          "seconds_per_case_mean": 0.015185707532509696
+        },
+        {
+          "tau": 1.0,
+          "sweep": 4,
+          "relative_l2_mean": 0.19702498929109424,
+          "error_ratio_to_latentddm": 3.079288668195717,
+          "seconds_per_case_mean": 0.01819778885692358
+        },
+        {
+          "tau": 1.0,
+          "sweep": 5,
+          "relative_l2_mean": 0.15367725584656,
+          "error_ratio_to_latentddm": 2.401810218035709,
+          "seconds_per_case_mean": 0.02120746467699064
+        },
+        {
+          "tau": 1.0,
+          "sweep": 6,
+          "relative_l2_mean": 0.1208315184339881,
+          "error_ratio_to_latentddm": 1.888466670209735,
+          "seconds_per_case_mean": 0.02421706260793144
+        },
+        {
+          "tau": 1.0,
+          "sweep": 7,
+          "relative_l2_mean": 0.09561564394971356,
+          "error_ratio_to_latentddm": 1.494369673491452,
+          "seconds_per_case_mean": 0.027249359372945037
+        },
+        {
+          "tau": 1.0,
+          "sweep": 8,
+          "relative_l2_mean": 0.07624515163479373,
+          "error_ratio_to_latentddm": 1.1916297129548776,
+          "seconds_per_case_mean": 0.030258964499807917
+        },
+        {
+          "tau": 1.0,
+          "sweep": 9,
+          "relative_l2_mean": 0.06128844142949674,
+          "error_ratio_to_latentddm": 0.9578724194543419,
+          "seconds_per_case_mean": 0.03328418706951197
+        },
+        {
+          "tau": 1.0,
+          "sweep": 10,
+          "relative_l2_mean": 0.04976718012767378,
+          "error_ratio_to_latentddm": 0.777807497244858,
+          "seconds_per_case_mean": 0.03629394277231768
+        },
+        {
+          "tau": 1.0,
+          "sweep": 11,
+          "relative_l2_mean": 0.040902398599428125,
+          "error_ratio_to_latentddm": 0.6392604966629809,
+          "seconds_per_case_mean": 0.03930369592126226
+        },
+        {
+          "tau": 1.0,
+          "sweep": 12,
+          "relative_l2_mean": 0.03409801999805495,
+          "error_ratio_to_latentddm": 0.5329153777178638,
+          "seconds_per_case_mean": 0.04231294639612315
+        },
+        {
+          "tau": 1.0,
+          "sweep": 13,
+          "relative_l2_mean": 0.02887794338312233,
+          "error_ratio_to_latentddm": 0.4513311947910636,
+          "seconds_per_case_mean": 0.045323163125431165
+        },
+        {
+          "tau": 1.0,
+          "sweep": 14,
+          "relative_l2_mean": 0.024888789957913104,
+          "error_ratio_to_latentddm": 0.3889850173739834,
+          "seconds_per_case_mean": 0.04833258108556038
+        },
+        {
+          "tau": 1.0,
+          "sweep": 15,
+          "relative_l2_mean": 0.021847540127055254,
+          "error_ratio_to_latentddm": 0.34145355359871277,
+          "seconds_per_case_mean": 0.05134164741321001
+        },
+        {
+          "tau": 1.0,
+          "sweep": 16,
+          "relative_l2_mean": 0.019533720704203006,
+          "error_ratio_to_latentddm": 0.30529104469729934,
+          "seconds_per_case_mean": 0.05435096145811258
+        }
+      ]
+    },
+    "8x8": {
+      "evaluation": "validation",
+      "cases": 64,
+      "checkpoint_policy": "scale-matched adaptation with 16 labels",
+      "methods": {
+        "LatentDDM": {
+          "error": {
+            "mean": 0.07081782445311546,
+            "ci95_low": 0.06790706484219602,
+            "ci95_high": 0.07393926424265373,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.027144597634105594,
+            "ci95_low": 0.01998932229546426,
+            "ci95_high": 0.03767175219835129,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Point": {
+          "error": {
+            "mean": 0.17243845791866383,
+            "ci95_low": 0.1681502005531608,
+            "ci95_high": 0.17693111082577767,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.01112703243506985,
+            "ci95_low": 0.007570418318778138,
+            "ci95_high": 0.01662369557825514,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Slice": {
+          "error": {
+            "mean": 0.17950119132486483,
+            "ci95_low": 0.1749894082953688,
+            "ci95_high": 0.184150160618204,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.04519860489138713,
+            "ci95_low": 0.04212967875930266,
+            "ci95_high": 0.04982722269654308,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Patch": {
+          "error": {
+            "mean": 0.1634919395825515,
+            "ci95_low": 0.15418816106781985,
+            "ci95_high": 0.17303221490001305,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.006196570580868865,
+            "ci95_low": 0.0014191541093964589,
+            "ci95_high": 0.013358905880113526,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        }
+      },
+      "sni_accuracy_time_curve": [
+        {
+          "tau": 1.0,
+          "sweep": 1,
+          "relative_l2_mean": 0.4738478804938495,
+          "error_ratio_to_latentddm": 6.691082141439657,
+          "seconds_per_case_mean": 0.022795648670580704
+        },
+        {
+          "tau": 1.0,
+          "sweep": 2,
+          "relative_l2_mean": 0.3639896148815751,
+          "error_ratio_to_latentddm": 5.13980227001399,
+          "seconds_per_case_mean": 0.03269663255196065
+        },
+        {
+          "tau": 1.0,
+          "sweep": 3,
+          "relative_l2_mean": 0.2817300925962627,
+          "error_ratio_to_latentddm": 3.978237043737209,
+          "seconds_per_case_mean": 0.04261296569893602
+        },
+        {
+          "tau": 1.0,
+          "sweep": 4,
+          "relative_l2_mean": 0.22069502691738307,
+          "error_ratio_to_latentddm": 3.11637682492623,
+          "seconds_per_case_mean": 0.0525430915367906
+        },
+        {
+          "tau": 1.0,
+          "sweep": 5,
+          "relative_l2_mean": 0.1738461934728548,
+          "error_ratio_to_latentddm": 2.454836685754851,
+          "seconds_per_case_mean": 0.06245503047830425
+        },
+        {
+          "tau": 1.0,
+          "sweep": 6,
+          "relative_l2_mean": 0.13799408916383982,
+          "error_ratio_to_latentddm": 1.948578486129548,
+          "seconds_per_case_mean": 0.07236822893901262
+        },
+        {
+          "tau": 1.0,
+          "sweep": 7,
+          "relative_l2_mean": 0.11016071104677394,
+          "error_ratio_to_latentddm": 1.5555506244011381,
+          "seconds_per_case_mean": 0.08226525314239552
+        },
+        {
+          "tau": 1.0,
+          "sweep": 8,
+          "relative_l2_mean": 0.08857496286509559,
+          "error_ratio_to_latentddm": 1.250743912978238,
+          "seconds_per_case_mean": 0.09216938078316161
+        },
+        {
+          "tau": 1.0,
+          "sweep": 9,
+          "relative_l2_mean": 0.07173616107320413,
+          "error_ratio_to_latentddm": 1.012967591523468,
+          "seconds_per_case_mean": 0.10206815908895805
+        },
+        {
+          "tau": 1.0,
+          "sweep": 10,
+          "relative_l2_mean": 0.05863199237501249,
+          "error_ratio_to_latentddm": 0.8279270484202669,
+          "seconds_per_case_mean": 0.11196852846478578
+        },
+        {
+          "tau": 1.0,
+          "sweep": 11,
+          "relative_l2_mean": 0.04844038892770186,
+          "error_ratio_to_latentddm": 0.6840140784015688,
+          "seconds_per_case_mean": 0.12186671505332924
+        },
+        {
+          "tau": 1.0,
+          "sweep": 12,
+          "relative_l2_mean": 0.04056375188520178,
+          "error_ratio_to_latentddm": 0.572790144267377,
+          "seconds_per_case_mean": 0.13176671707333298
+        },
+        {
+          "tau": 1.0,
+          "sweep": 13,
+          "relative_l2_mean": 0.034519650536822155,
+          "error_ratio_to_latentddm": 0.4874429679730658,
+          "seconds_per_case_mean": 0.1416810500813881
+        },
+        {
+          "tau": 1.0,
+          "sweep": 14,
+          "relative_l2_mean": 0.02993217544280924,
+          "error_ratio_to_latentddm": 0.42266443051530994,
+          "seconds_per_case_mean": 0.1515894358890364
+        },
+        {
+          "tau": 1.0,
+          "sweep": 15,
+          "relative_l2_mean": 0.026488256276934408,
+          "error_ratio_to_latentddm": 0.37403374759797664,
+          "seconds_per_case_mean": 0.1614872146237758
+        },
+        {
+          "tau": 1.0,
+          "sweep": 16,
+          "relative_l2_mean": 0.02392986287304666,
+          "error_ratio_to_latentddm": 0.33790734264774386,
+          "seconds_per_case_mean": 0.17138994023116538
+        }
+      ]
+    },
+    "16x16": {
+      "evaluation": "validation",
+      "cases": 64,
+      "checkpoint_policy": "scale-matched adaptation with 16 labels",
+      "methods": {
+        "LatentDDM": {
+          "error": {
+            "mean": 0.07749970507575199,
+            "ci95_low": 0.07310515179609259,
+            "ci95_high": 0.0821557161907549,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.07676038000590779,
+            "ci95_low": 0.06848318559824898,
+            "ci95_high": 0.09311981366433125,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Point": {
+          "error": {
+            "mean": 0.1942354222604384,
+            "ci95_low": 0.18986965825703614,
+            "ci95_high": 0.19860443403595127,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.04558158469050492,
+            "ci95_low": 0.04166485967731812,
+            "ci95_high": 0.053747684233894685,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Slice": {
+          "error": {
+            "mean": 0.21611302307186028,
+            "ci95_low": 0.2074278763184945,
+            "ci95_high": 0.22787592873210089,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.19138369276030667,
+            "ci95_low": 0.18732402883406393,
+            "ci95_high": 0.19923478251585036,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        },
+        "Patch": {
+          "error": {
+            "mean": 0.20127810638708374,
+            "ci95_low": 0.19387913282844238,
+            "ci95_high": 0.20933002819462368,
+            "seed_count": 3,
+            "case_count": 64
+          },
+          "seconds": {
+            "mean": 0.008336380752552941,
+            "ci95_low": 0.0028556111382234423,
+            "ci95_high": 0.01889320574522723,
+            "seed_count": 3,
+            "case_count": 64
+          }
+        }
+      },
+      "sni_accuracy_time_curve": [
+        {
+          "tau": 1.0,
+          "sweep": 1,
+          "relative_l2_mean": 0.4955903054215014,
+          "error_ratio_to_latentddm": 6.394737953352045,
+          "seconds_per_case_mean": 0.07103630644996883
+        },
+        {
+          "tau": 1.0,
+          "sweep": 2,
+          "relative_l2_mean": 0.38467987021431327,
+          "error_ratio_to_latentddm": 4.963630117537975,
+          "seconds_per_case_mean": 0.10577999521774473
+        },
+        {
+          "tau": 1.0,
+          "sweep": 3,
+          "relative_l2_mean": 0.3008379745297134,
+          "error_ratio_to_latentddm": 3.8817950885833654,
+          "seconds_per_case_mean": 0.14040711527195526
+        },
+        {
+          "tau": 1.0,
+          "sweep": 4,
+          "relative_l2_mean": 0.23789929877966642,
+          "error_ratio_to_latentddm": 3.0696800529386796,
+          "seconds_per_case_mean": 0.1750417119692429
+        },
+        {
+          "tau": 1.0,
+          "sweep": 5,
+          "relative_l2_mean": 0.18922765704337507,
+          "error_ratio_to_latentddm": 2.4416564793171114,
+          "seconds_per_case_mean": 0.20968732726760209
+        },
+        {
+          "tau": 1.0,
+          "sweep": 6,
+          "relative_l2_mean": 0.1516555796843022,
+          "error_ratio_to_latentddm": 1.9568536362308302,
+          "seconds_per_case_mean": 0.2443653275622637
+        },
+        {
+          "tau": 1.0,
+          "sweep": 7,
+          "relative_l2_mean": 0.12229124415898696,
+          "error_ratio_to_latentddm": 1.5779575424119812,
+          "seconds_per_case_mean": 0.2789845994411735
+        },
+        {
+          "tau": 1.0,
+          "sweep": 8,
+          "relative_l2_mean": 0.09935240121558309,
+          "error_ratio_to_latentddm": 1.2819713458066866,
+          "seconds_per_case_mean": 0.3136282821142231
+        },
+        {
+          "tau": 1.0,
+          "sweep": 9,
+          "relative_l2_mean": 0.08134340663673356,
+          "error_ratio_to_latentddm": 1.0495963379115385,
+          "seconds_per_case_mean": 0.3482969504329958
+        },
+        {
+          "tau": 1.0,
+          "sweep": 10,
+          "relative_l2_mean": 0.06722787706530653,
+          "error_ratio_to_latentddm": 0.8674597793578017,
+          "seconds_per_case_mean": 0.38301646356558194
+        },
+        {
+          "tau": 1.0,
+          "sweep": 11,
+          "relative_l2_mean": 0.056164720677770674,
+          "error_ratio_to_latentddm": 0.7247088311222931,
+          "seconds_per_case_mean": 0.41767562571476446
+        },
+        {
+          "tau": 1.0,
+          "sweep": 12,
+          "relative_l2_mean": 0.04753002512734383,
+          "error_ratio_to_latentddm": 0.6132929806750319,
+          "seconds_per_case_mean": 0.4523319518848439
+        },
+        {
+          "tau": 1.0,
+          "sweep": 13,
+          "relative_l2_mean": 0.04081883651087992,
+          "error_ratio_to_latentddm": 0.5266966689870832,
+          "seconds_per_case_mean": 0.48699827906966675
+        },
+        {
+          "tau": 1.0,
+          "sweep": 14,
+          "relative_l2_mean": 0.035638285015011206,
+          "error_ratio_to_latentddm": 0.45985058885290736,
+          "seconds_per_case_mean": 0.5216171732899966
+        },
+        {
+          "tau": 1.0,
+          "sweep": 15,
+          "relative_l2_mean": 0.03166599817632232,
+          "error_ratio_to_latentddm": 0.408595079753793,
+          "seconds_per_case_mean": 0.5562904743856052
+        },
+        {
+          "tau": 1.0,
+          "sweep": 16,
+          "relative_l2_mean": 0.0286425704107387,
+          "error_ratio_to_latentddm": 0.3695829601253586,
+          "seconds_per_case_mean": 0.5909518259359174
+        }
+      ]
+    }
+  }
+}

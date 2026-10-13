@@ -1,0 +1,9 @@
+{
+  "files": {
+    "iclr2027/experiments/darcy_adaptation_location_20260921/experiment.py": "62147653444f0e78e461908598dd8c845cb2b893f1d328e42518684c6b6254bf",
+    "iclr2027/experiments/darcy_adaptation_location_20260921/run_stage.sbatch": "91c9159179877ded4c3dafac53e945df7bfd7bb532de8d3f5ea7324dc5bbfc09",
+    "iclr2027/experiments/darcy_adaptation_location_20260921/submit.py": "80d27bc42f5feab15362f128cff02477210ec2988a9d2e98451670d74054a684",
+    "iclr2027/experiments/darcy_adaptation_location_20260921/test_experiment.py": "038462f93247a9dbd3fcf5b20877829db51071f50bb660d75c1bf3e9db95d139"
+  },
+  "protocol_sha256": "04fba5d8416207a067bc99e4949777e8bf86037c606966b60d95906a8a6b5492"
+}

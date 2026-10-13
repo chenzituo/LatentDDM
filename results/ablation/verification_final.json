@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "screening_runs": 6,
+  "final_runs": 12,
+  "final_test_rows": 768,
+  "zero_shot_rows": 128,
+  "validation_history_rows": 288,
+  "production_failures": 0,
+  "unique_run_domain_pairs": 768,
+  "relative_error_norm_identity_checked": true,
+  "source_and_implementation_hashes_verified": true,
+  "selected_checkpoint_hashes_verified": 12,
+  "selected_epochs_match_validation_minima": 12,
+  "hardware_all_final_runs": "NVIDIA L40S",
+  "complexity_analysis_included": true
+}

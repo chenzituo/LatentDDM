@@ -1,0 +1,1154 @@
+{
+  "codiffuse_Schwarz/__init__.py": {
+    "sha256": "922ec4ece89971c3c28959901a7a8d54134a487af80d4fdd9991b232fb82fb7d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/__init__.py"
+  },
+  "codiffuse_Schwarz/amr_flow.py": {
+    "sha256": "aaaf6adb1c6945f5d19ee44389a2f98859832293272776ac58a7ac4607a95f18",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/amr_flow.py"
+  },
+  "codiffuse_Schwarz/analyze_sni_contractivity.py": {
+    "sha256": "07a7b269582474021ec7d90b847322f43e938eac8f78a53af6b49c8da9873923",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/analyze_sni_contractivity.py"
+  },
+  "codiffuse_Schwarz/analyze_submission_robustness.py": {
+    "sha256": "ebde4f3f65df7836d42fc3672b1d79aabb6bb4503778818f9c5afc4e2578863b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/analyze_submission_robustness.py"
+  },
+  "codiffuse_Schwarz/audit_boundary_input_submission.py": {
+    "sha256": "b82cb3338af7423b702ce9e6e6bea284a97e827cc0c3afeea6adfdd7c881a3be",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/audit_boundary_input_submission.py"
+  },
+  "codiffuse_Schwarz/audit_local_position_prior.py": {
+    "sha256": "d04606f3f129b01896b446595027957041b1acb574bc9b4e4289ace7d6bee63e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/audit_local_position_prior.py"
+  },
+  "codiffuse_Schwarz/audit_patch_transformer_checkpoint.py": {
+    "sha256": "faaf3bcdbbf17b6862dae78c0bbc4e3bebf860522c874bcd444b4e05be6a3d00",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/audit_patch_transformer_checkpoint.py"
+  },
+  "codiffuse_Schwarz/audit_submission_evidence.py": {
+    "sha256": "6e7ee428bcbee4196e591042bd9b1f95e7ff8f25338d8dca9530b966529a63fd",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/audit_submission_evidence.py"
+  },
+  "codiffuse_Schwarz/audit_submission_patch_identity.py": {
+    "sha256": "5a17f00b67a4e4e4a47c11579f66c13f5cdb459e552acf57944478a1b37a65c4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/audit_submission_patch_identity.py"
+  },
+  "codiffuse_Schwarz/boundary_trace_basis.py": {
+    "sha256": "e5f040d272d6e9ee49322d6e313bcb9471017c8b891dac465d3f3a421e4f3743",
+    "origin": "codiffuse_Schwarz/boundary_trace_basis.py"
+  },
+  "codiffuse_Schwarz/build_boundary_input_evidence_manifest.py": {
+    "sha256": "d5153009f1cba311628f17f068b598d2bb60ecfa43750336f96a57e614e4d2b1",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/build_boundary_input_evidence_manifest.py"
+  },
+  "codiffuse_Schwarz/build_local_bvp_contracts.py": {
+    "sha256": "092fa8952bc2c53fd1d3fd2463ded09fa61fd91cb20a51ff2d5ba096cc88bbc6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/build_local_bvp_contracts.py"
+  },
+  "codiffuse_Schwarz/build_production_evidence_manifest.py": {
+    "sha256": "a659d972d12b1efd6a80ac37746971fb68fb5d91044659970f448ec921dfbf2a",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/build_production_evidence_manifest.py"
+  },
+  "codiffuse_Schwarz/compare_amr_runs.py": {
+    "sha256": "f7f91dfb49e21b86babd017ec0b84ad5bdf855ba9c1552844e59840b76fd2bd6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/compare_amr_runs.py"
+  },
+  "codiffuse_Schwarz/compatibility_composer.py": {
+    "sha256": "c087b45b19bb287f6013b3847a028cb854fccf7a52b087f8f2ed8082a0e3c50c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/compatibility_composer.py"
+  },
+  "codiffuse_Schwarz/compatibility_defect.py": {
+    "sha256": "8d4d4dad2f0eaa5c02f75593cdd36e44050bdbf2057dcfc5d7c75086eb7cb138",
+    "origin": "codiffuse_Schwarz/compatibility_defect.py"
+  },
+  "codiffuse_Schwarz/core.py": {
+    "sha256": "8fb06abb1a9c97c82501682718e119473744dfa08231315cd6e3bc43235a246f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/core.py"
+  },
+  "codiffuse_Schwarz/evaluate_overlap_ablation.py": {
+    "sha256": "d163766db9509d4ed7155fdc494e63d6615f611fcabb621a41a468bc9371249f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/evaluate_overlap_ablation.py"
+  },
+  "codiffuse_Schwarz/field_token_composer.py": {
+    "sha256": "4a4bca30ac9884a081b9b173139b668311845fbf14c52c23fcafe2d17f4b21ca",
+    "origin": "codiffuse_Schwarz/field_token_composer.py"
+  },
+  "codiffuse_Schwarz/global_vit.py": {
+    "sha256": "a752caf66de0e5a0a46b76238814c8dce068b57cb5721a44bea3c5b2a11ef2ba",
+    "origin": "codiffuse_Schwarz/global_vit.py"
+  },
+  "codiffuse_Schwarz/latent_schur.py": {
+    "sha256": "c612f9b210cade9cbca2a7c013c7713c4460b49f1448949d2ad5ee06bd07b88c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/latent_schur.py"
+  },
+  "codiffuse_Schwarz/learned_composer.py": {
+    "sha256": "3f50616430a87cd21827cded610b8ed276bc53b2a0f9a2ae20af4619bcc2b588",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/learned_composer.py"
+  },
+  "codiffuse_Schwarz/plot_dataset_galleries.py": {
+    "sha256": "e8c4f61a90b504e4deb85febacbb8050fb9f3782b302c8d4b7590dda9dd57a4f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_dataset_galleries.py"
+  },
+  "codiffuse_Schwarz/plot_dataset_galleries_main.py": {
+    "sha256": "ecbc7750b5d727eccda6ee5d59b85367b7c9dba342b70857eae6d4c4af277074",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_dataset_galleries_main.py"
+  },
+  "codiffuse_Schwarz/plot_latentddm_claim_summary.py": {
+    "sha256": "6351d8559be4b88523090b8e4fb417e29973d3910a354ffecc86f6e71eec59f9",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_latentddm_claim_summary.py"
+  },
+  "codiffuse_Schwarz/plot_latentddm_claim_summary_v3.py": {
+    "sha256": "b9d452f3b631f1b707758f06ea568a5cc84f322d4f9c66c9661dcb8cf098aaff",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_latentddm_claim_summary_v3.py"
+  },
+  "codiffuse_Schwarz/plot_low_data_global_operator_audit.py": {
+    "sha256": "7bd72948cf1d49229ae66f8f9b27133d8b7c109bf8ac1bb85f1891f3b33c8b41",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_low_data_global_operator_audit.py"
+  },
+  "codiffuse_Schwarz/plot_sni_three_case_frontier.py": {
+    "sha256": "27e5a7bf665579bda2b19365ce6264bc05d7bae13c303863078d46076f20c17c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_sni_three_case_frontier.py"
+  },
+  "codiffuse_Schwarz/plot_sni_two_initialization_frontier.py": {
+    "sha256": "aa78044a6cfcf51139e9e9b31b261ba0729b77fcbef8e7a2e301ab821841d18c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_sni_two_initialization_frontier.py"
+  },
+  "codiffuse_Schwarz/plot_three_case_decompositions.py": {
+    "sha256": "a199f1d46619783cea3485c52987e4d4494537d0f18457555dadd3fd2e639f78",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_three_case_decompositions.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_16ood_tentative.py": {
+    "sha256": "5e8d0de738de56e2f850c2793604ee82a09e23361ed6b72557566d73cbf1cb3f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_16ood_tentative.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_adaptation.py": {
+    "sha256": "ee00e220a6901617906815f9751ea4c30ddc9aee278d902c7671d05547b552fc",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_adaptation.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_claim_summary.py": {
+    "sha256": "6c2e980543e244736708ecc9fcfe8f502dd5f7f2c561480b0b9c431ce6ce8500",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_claim_summary.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_decompositions.py": {
+    "sha256": "f16c67041089c0d374829cd7df038e6f325c5533b2c7d2eac340aee9798ff775",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_decompositions.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_native_claim_summary.py": {
+    "sha256": "c6a2060c2d67bc8c9d3eff9eb3dcabbe9f1c24a8323f90d98b1a5bf544283ad6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_native_claim_summary.py"
+  },
+  "codiffuse_Schwarz/plot_two_case_transfer.py": {
+    "sha256": "922a74283be2cd4fff3cdb5e57e62eb79aaff6dfb0148dcfa5b8630283197e90",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_two_case_transfer.py"
+  },
+  "codiffuse_Schwarz/plot_unified_pdf_figures.py": {
+    "sha256": "39c45aa2b0924a519f9d749feae8865001985fa63032c2db32c1105371c3f598",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/plot_unified_pdf_figures.py"
+  },
+  "codiffuse_Schwarz/reduced_inverse.py": {
+    "sha256": "b767a38a0444ca344fb48fd768702a2a006f6b033126e4bdfaba211596b8101a",
+    "origin": "codiffuse_Schwarz/reduced_inverse.py"
+  },
+  "codiffuse_Schwarz/residual_port.py": {
+    "sha256": "351fd4ff0b90a1621bb10ae8e9ca18c07157707ee2456a863fd59e1703794318",
+    "origin": "codiffuse_Schwarz/residual_port.py"
+  },
+  "codiffuse_Schwarz/run_amr_toy.py": {
+    "sha256": "bec2295f5579b8816766ec149bcd4f40c48af995b3982668f0eaed9affc2753c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/run_amr_toy.py"
+  },
+  "codiffuse_Schwarz/run_toy.py": {
+    "sha256": "bab7b67b9cfb6348ea745c19441380791c3c9d95ebf330b2f074b36d0c27f3dc",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/run_toy.py"
+  },
+  "codiffuse_Schwarz/signed_tile_communication.py": {
+    "sha256": "4d22ad3eda78668ac04e122e9b089e2a5c7de10b7a7df5bbf5e496cc113d88c5",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/signed_tile_communication.py"
+  },
+  "codiffuse_Schwarz/summarize_field_token_depth_study.py": {
+    "sha256": "b60a6dc6103e9b8b6585f3667e4fd52a1705f500ace743393a7d9ebb6693000d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/summarize_field_token_depth_study.py"
+  },
+  "codiffuse_Schwarz/summarize_two_initialization_sni.py": {
+    "sha256": "29a03b1c42fbaec1f077fd97e10d456f9019d98eb737d253bd3518a287926c9e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/summarize_two_initialization_sni.py"
+  },
+  "codiffuse_Schwarz/test_amr_flow.py": {
+    "sha256": "214b666a94080fe68de7703c9b438eb56c78cf541cbedc590eff29d719960cce",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/test_amr_flow.py"
+  },
+  "codiffuse_Schwarz/test_boundary_trace_basis.py": {
+    "sha256": "c9d78128ed5b4f6ef4759e59e809c31c14f6a0cda766a305576b7f583eb16ce7",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/test_boundary_trace_basis.py"
+  },
+  "codiffuse_Schwarz/test_plot_two_case_adaptation.py": {
+    "sha256": "69ef936512c2daa9dbd346767c4d1bd9aa03aaf7b0ab16880f0c28187a086e62",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/test_plot_two_case_adaptation.py"
+  },
+  "codiffuse_Schwarz/test_tile_communication.py": {
+    "sha256": "82ff4d71e1af5033812507461df55d746577a636ba729fe048315aed56f8c332",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/test_tile_communication.py"
+  },
+  "codiffuse_Schwarz/test_toy.py": {
+    "sha256": "d926ea6636e0fe8f256343c86c91383685386e3a7210a6bb81a75a9dfc4d4c0b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz/test_toy.py"
+  },
+  "codiffuse_Schwarz/tile_communication.py": {
+    "sha256": "83e0b613035c88b6a49d8d057c045b7b0895cb23d6a7abb7aaeeab4e4154b511",
+    "origin": "codiffuse_Schwarz/tile_communication.py"
+  },
+  "codiffuse_Schwarz_Darcy/__init__.py": {
+    "sha256": "bf9944a264d958330f9b985050b4ae8d61b3364603f0b52cd01e6b4ad94d5a81",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/__init__.py"
+  },
+  "codiffuse_Schwarz_Darcy/adapter.py": {
+    "sha256": "b2a33cba14dd64da5051b20bd91411772b7a7d304677f082610a335c2574f648",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/adapter.py"
+  },
+  "codiffuse_Schwarz_Darcy/aggregate_domain_extension_fixed_dx_final_test.py": {
+    "sha256": "4251c038da0e260d9e98d1dec92538408114ded8602da94600dde5aebfc2f822",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/aggregate_domain_extension_fixed_dx_final_test.py"
+  },
+  "codiffuse_Schwarz_Darcy/aggregate_face_v2_global.py": {
+    "sha256": "b59d4990a3bdf7bbbb83ff55d122bbcd1994615f5c84159516629c4d4981ac1f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/aggregate_face_v2_global.py"
+  },
+  "codiffuse_Schwarz_Darcy/aggregate_validation_only_global.py": {
+    "sha256": "3632a04420077f1573e94dc133c825320874a22a7889b44d737a630c43505962",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/aggregate_validation_only_global.py"
+  },
+  "codiffuse_Schwarz_Darcy/analyze_boundary_chart_capacity.py": {
+    "sha256": "de6dd33dbb9843d4051ba51ae1077d2b7d8e50d4fc25768c659cb189b7e084a4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/analyze_boundary_chart_capacity.py"
+  },
+  "codiffuse_Schwarz_Darcy/analyze_latent_schur_spectrum.py": {
+    "sha256": "2222732bd03456d2de6c258f1d60659c5c2ed1489de96e1392ff95850e6d016b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/analyze_latent_schur_spectrum.py"
+  },
+  "codiffuse_Schwarz_Darcy/analyze_linear_chart_spectrum.py": {
+    "sha256": "79e30877dcca0edfd5dff362a55024e45ff1af83c0af2c432f99c56c697be7e8",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/analyze_linear_chart_spectrum.py"
+  },
+  "codiffuse_Schwarz_Darcy/audit_conditioned_chart_sweep.py": {
+    "sha256": "42f1db75e3e69d046ac35dd190ed7d4e1dc60b8b87b44ab70748119bafef8546",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/audit_conditioned_chart_sweep.py"
+  },
+  "codiffuse_Schwarz_Darcy/audit_response_chart_gate.py": {
+    "sha256": "8b4d70f6d431c381a3ad1619dd09fb38d700df4adef7cadd8ab57fa460b9a792",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/audit_response_chart_gate.py"
+  },
+  "codiffuse_Schwarz_Darcy/benchmark_field_token_decomposed_methods.py": {
+    "sha256": "fff4e2a9a4f745e1670405e12b5aebed7be96f460f292f57030875d3e8da390f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/benchmark_field_token_decomposed_methods.py"
+  },
+  "codiffuse_Schwarz_Darcy/budget_protocol.py": {
+    "sha256": "46f8219dc1123931ec985594849c191cdc7d324c44455f32ced85c3b8d7d20f0",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/budget_protocol.py"
+  },
+  "codiffuse_Schwarz_Darcy/combine_domain_extension_adaptation_with_peft.py": {
+    "sha256": "9fa946d934217063533dbcce0a5ffbf7f3afa20aaf52bdba4bbe07b9bc3d3bcd",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/combine_domain_extension_adaptation_with_peft.py"
+  },
+  "codiffuse_Schwarz_Darcy/compare_residual_port_analyzers.py": {
+    "sha256": "7ee259fd9f01cd8bba11298ba01036d662ae7acd32e51125b30f30ed004eeb6e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/compare_residual_port_analyzers.py"
+  },
+  "codiffuse_Schwarz_Darcy/compare_residual_port_charts.py": {
+    "sha256": "b428b9c4b86796c25d84e266d0a7ced2dd1d46c92f8c69d032320294cda6ea49",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/compare_residual_port_charts.py"
+  },
+  "codiffuse_Schwarz_Darcy/compare_state_gated_dynamic_validation.py": {
+    "sha256": "91475e8ecb0f170ea8833d3ec0f84bddba71d2d0e10c713987233361aec7280c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/compare_state_gated_dynamic_validation.py"
+  },
+  "codiffuse_Schwarz_Darcy/dataset.py": {
+    "sha256": "51db5b80be3ea3f63836ebd440a22664fbadb4de0eed2f8f4c13f2b5b584c9d5",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/distill_dynamic_relative_green_teacher.py": {
+    "sha256": "67252d8d1ebc4263cca33f4ea10e5e4f7fbae2abeb7d3f392c46134c7556ef04",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/distill_dynamic_relative_green_teacher.py"
+  },
+  "codiffuse_Schwarz_Darcy/distill_state_gated_dynamic_teacher.py": {
+    "sha256": "dd2cf490ae2a85ef17e9884d36e921d18c073721265b6353cadf8f5b5d3c7ad0",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/distill_state_gated_dynamic_teacher.py"
+  },
+  "codiffuse_Schwarz_Darcy/distill_value_flux_communicator.py": {
+    "sha256": "c151ba6053b94d15ff72724a54d186bc3f95c4c333ef00a281b0a1736c88fdf4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/distill_value_flux_communicator.py"
+  },
+  "codiffuse_Schwarz_Darcy/domain_extension_dataset.py": {
+    "sha256": "0151d9476b12f073aef8e3b686226063bf7f64dd0e06fa1aae5fb76a0cfe8647",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/domain_extension_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate.py": {
+    "sha256": "2d3632d9a15e4159e28928ded8f4f2ca95a296ece2c7fb242efccc469162b115",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_core_owned_composition.py": {
+    "sha256": "6707474fa6be876e9e3e47d40a48734c2668721a36f362e7b202cf6855b08c2c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_core_owned_composition.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_core_sni.py": {
+    "sha256": "c2b7ccf4035250a18188ed0c9df7ba120083f27c9d2bfd9e96ef1c43543d2923",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_core_sni.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_field_token_composer.py": {
+    "sha256": "314d9757cbe07777ad9085f459f92b9764c873a81b6e623a9e1fa0d031531954",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_field_token_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_field_token_family.py": {
+    "sha256": "e68ac2641aa6e9687b88524caa9e2d05683a17c33a9d4f574ac29e9618bde0f1",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_field_token_family.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_global.py": {
+    "sha256": "162a1154342afedcd874b3d3f28aaf8b25689f1bf06b33fbec855b84fe2527f0",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_global.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_input_correction_latentddm.py": {
+    "sha256": "065ae234dc840fdd2bf65f92bc339dbc4714c791d2e6f2d59506e17bdeb29486",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_input_correction_latentddm.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_locality_obstruction.py": {
+    "sha256": "080f2884ae992d871823507a6ae589fc2db480bde6b0d88a55b1b4043d8718ae",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_locality_obstruction.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_operator_composer.py": {
+    "sha256": "98f0bfeca18c03f2b02746184b663bc5fdb9a48e5de6d5a83f703b4f3beff05b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_operator_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_patch_transformer_strict.py": {
+    "sha256": "a7bb43567db4217583d45d408253889ca3afdb6a275ce64a141bfdccf293ea39",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_patch_transformer_strict.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_semantic_composer.py": {
+    "sha256": "951859e58b7473cf949e49339e2d5d715aff96c05bc7daaed213197f1847d31c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_semantic_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_theorem_decomposition.py": {
+    "sha256": "10f55eb3f4fa02e7794baccd7c8e2822d1856031f34ade0dc348551ec0267ea5",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_theorem_decomposition.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_two_level.py": {
+    "sha256": "dd984d13d69d6234d9da88cf03c7990d607bbe5888221028dd1e583bc07964e8",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_two_level.py"
+  },
+  "codiffuse_Schwarz_Darcy/evaluate_weighted_pou_sni_initializations.py": {
+    "sha256": "2eabb5b408d34ac4086b1c78644ffa9fbb32c93b62e36d9026245c7a36037807",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/evaluate_weighted_pou_sni_initializations.py"
+  },
+  "codiffuse_Schwarz_Darcy/export_value_flux_teacher.py": {
+    "sha256": "49883e2125257e4502c897cbfc73206bca108dd47c438242cd11724d7f42f9fe",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/export_value_flux_teacher.py"
+  },
+  "codiffuse_Schwarz_Darcy/field_token_composer.py": {
+    "sha256": "88efbf9b096369bc6f46d4547bd75cb3af3f7e8c0a9ce710745f5504b5369442",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/field_token_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/finalize_compatibility_checkpoint.py": {
+    "sha256": "364450d57c82d87ac26709c7367b0066015749266ded2fb7e5a606e3cd536008",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/finalize_compatibility_checkpoint.py"
+  },
+  "codiffuse_Schwarz_Darcy/finalize_dynamic_darcy_candidate.py": {
+    "sha256": "7b5c2702dc2d9ebc680095e8e498c9fa1d0726f93c643d0039e96dfa59322f43",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/finalize_dynamic_darcy_candidate.py"
+  },
+  "codiffuse_Schwarz_Darcy/finetune_relative_green_flux.py": {
+    "sha256": "65c028a604df2de3f13ee335f007ca6e02eeeeb0c477f61f3a4a12765d02b166",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/finetune_relative_green_flux.py"
+  },
+  "codiffuse_Schwarz_Darcy/finetune_remote_pair_response.py": {
+    "sha256": "a35f6b32728e7c780fc0335a64c195136aa0e417878b99491014cb9e292d6cde",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/finetune_remote_pair_response.py"
+  },
+  "codiffuse_Schwarz_Darcy/fit_relative_green_flux.py": {
+    "sha256": "7fac59858258afaddb4e2ed66b3cef40536fa35ab188d21724cf17dd3e2564c5",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/fit_relative_green_flux.py"
+  },
+  "codiffuse_Schwarz_Darcy/full_domain_dataset.py": {
+    "sha256": "450b24f81a848bd12ea596f7b43e69083ad479217f2a9d150e8eb9452bac6a98",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/full_domain_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/generate_dataset.py": {
+    "sha256": "5bf656f8beabd0b62607687e43b3d02f8b9937cbd361a669c7eaefa53c28b8f6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/generate_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/generate_domain_extension_scaling.py": {
+    "sha256": "b01038a5ad8726090fe0c7e65fc852650c2f9714e726b2995ed1e3d5a59a400a",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/generate_domain_extension_scaling.py"
+  },
+  "codiffuse_Schwarz_Darcy/generate_full_domain_dataset.py": {
+    "sha256": "3add14a3d73a56742657799bf9c1c516f1a801c96137d2b062e0cf905ad82b16",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/generate_full_domain_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/generate_remote_pair_corpus.py": {
+    "sha256": "c60f56ae95c852f3960de72f54e7617a1d165ab4ae521b7fc8bd350fc3a5194d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/generate_remote_pair_corpus.py"
+  },
+  "codiffuse_Schwarz_Darcy/generate_robin_v3.py": {
+    "sha256": "87aef384a7b5158a6005aeb9bf6db14c97e4f7996f75224717f61c448312f48c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/generate_robin_v3.py"
+  },
+  "codiffuse_Schwarz_Darcy/global_operator.py": {
+    "sha256": "bec81ca1d291c3a15fb2bd68c2b6999e58b35da37b51418c41f4d6b9fdd5cc9a",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/global_operator.py"
+  },
+  "codiffuse_Schwarz_Darcy/input_correction_latentddm.py": {
+    "sha256": "94334df33ec177158869f64e45a448f1ab7376b2673ee24535bdf7743dbe1f96",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/input_correction_latentddm.py"
+  },
+  "codiffuse_Schwarz_Darcy/latent_schur_teacher.py": {
+    "sha256": "9c299694abdad32aa7ee850127ffa7a86dea981be12027d6c0f510cb03bd5423",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/latent_schur_teacher.py"
+  },
+  "codiffuse_Schwarz_Darcy/lift_contextual_relative_green.py": {
+    "sha256": "604223eb7c6bd70bbe92a558a866229936eac6f79b5c3f26cb28a78707d1eaee",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/lift_contextual_relative_green.py"
+  },
+  "codiffuse_Schwarz_Darcy/lift_dynamic_relative_green.py": {
+    "sha256": "c1387e82c82eb288267bd2ee7ae6104e8b429bdcf5b64b128f8fbf163025d464",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/lift_dynamic_relative_green.py"
+  },
+  "codiffuse_Schwarz_Darcy/lift_state_gated_dynamic.py": {
+    "sha256": "e126a058ee39ad70d6ee207e0e8268f3c694c02469660649fbe804b4e01ab6cb",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/lift_state_gated_dynamic.py"
+  },
+  "codiffuse_Schwarz_Darcy/low_rank_adaptation.py": {
+    "sha256": "6f7ebaf8d5f8e45a0835b0f66774de97b40018cd3e46f55fcded7e1d7c3a75ab",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/low_rank_adaptation.py"
+  },
+  "codiffuse_Schwarz_Darcy/make_core_sni_init_only_evidence.py": {
+    "sha256": "ba307e0c8f3fd25e8102310e6099f7cd51ddce0bcac16681b09a45b52ca911dd",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/make_core_sni_init_only_evidence.py"
+  },
+  "codiffuse_Schwarz_Darcy/masked_anchor_operator.py": {
+    "sha256": "27c9615d0d2c36e49f62a29619faf4860161a65b1d2475d5ee6e4982e6f79c30",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/masked_anchor_operator.py"
+  },
+  "codiffuse_Schwarz_Darcy/physics.py": {
+    "sha256": "b7949d73f68827ac02aa09bee410512e5fb5b84cee23654e3dbbc9de8f805922",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/physics.py"
+  },
+  "codiffuse_Schwarz_Darcy/plot_four_scale_accuracy_time.py": {
+    "sha256": "b202289bd2a2e076d570ce5ce87b1879e8c79c1ac976d150712a41a53bba2d59",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/plot_four_scale_accuracy_time.py"
+  },
+  "codiffuse_Schwarz_Darcy/plot_results.py": {
+    "sha256": "0380c8b5537f1431d87c70674c30d0aefed6033f671c2f73b635b938b2eb2a01",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/plot_results.py"
+  },
+  "codiffuse_Schwarz_Darcy/pretrain_compatibility_inverse.py": {
+    "sha256": "9e3966ad88d6388c1d78fa23b082daa9f8b521477fd51c9bb21bd1ac1d6ad83c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/pretrain_compatibility_inverse.py"
+  },
+  "codiffuse_Schwarz_Darcy/recover_global_source_from_lora.py": {
+    "sha256": "ba2b8dd7981a4d2d3f991ad57b34a6e3eba2e3c0a3f18e47f2d78dbd1c1df378",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/recover_global_source_from_lora.py"
+  },
+  "codiffuse_Schwarz_Darcy/residual_port_composer.py": {
+    "sha256": "8a89be438ad52518cbdfea91ced7e5cd5ff51a46881600bac3dec87d16dfa95b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/residual_port_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/robin_osm.py": {
+    "sha256": "88d5020461d18a25161422c50f8cd515a68a087b60a2c1a915f888f01121358d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/robin_osm.py"
+  },
+  "codiffuse_Schwarz_Darcy/robin_v3.py": {
+    "sha256": "21dfa322c5e27b5edfe69ef05308e9090d2afd6cf088d0cd224e9f17eee61cd2",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/robin_v3.py"
+  },
+  "codiffuse_Schwarz_Darcy/select_domain_extension_composer.py": {
+    "sha256": "d7bec56f9daa0997b6f0569413174a8570aebd27d2694f7f50aef2e94f3487a6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/select_domain_extension_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/select_domain_extension_peft_pilot.py": {
+    "sha256": "870a2260dfd2c5a82cab6de07e004f084decc676e3320f3015aa78b8f4fd8945",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/select_domain_extension_peft_pilot.py"
+  },
+  "codiffuse_Schwarz_Darcy/select_global_direct96_pilot.py": {
+    "sha256": "ef3abafbd3c52b3fc4918c4656def986d4ae77bcf2025ea59290c3ac2b7978e1",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/select_global_direct96_pilot.py"
+  },
+  "codiffuse_Schwarz_Darcy/select_remote_pair_interpolation.py": {
+    "sha256": "31e3e4e63225f417c51d5604c3f8165ea364ab265ee7ad77e8d141e2d7068979",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/select_remote_pair_interpolation.py"
+  },
+  "codiffuse_Schwarz_Darcy/select_seam_refinement.py": {
+    "sha256": "50b75948ca2ac8d6303919f7dc759ead9151cb27979ae2349ea77472ed47d74e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/select_seam_refinement.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_communication.py": {
+    "sha256": "381b61adea0d77302ebec117597d533d9d1025dc48e888563c2245e032575c80",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_communication.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_communication_multiseed.py": {
+    "sha256": "13028b030a5fbfdf2b1eb98870152b4481296401fac3b9cb32cd39bc502d88c6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_communication_multiseed.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_domain_extension_adaptation.py": {
+    "sha256": "9a2a3fb4a8a14e56b2197c1e6483d6428d1b394247d4b3aed009dd2235f34ba9",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_domain_extension_adaptation.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_domain_extension_adaptation_scaling.py": {
+    "sha256": "86c262e496e9ef9a8253dcdb3f3f0738e4a46de831db0106f648c7cc28645728",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_domain_extension_adaptation_scaling.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_domain_extension_fixed_dx.py": {
+    "sha256": "43c127cbc07d28a6a98292d3e6d53cc04609d1aad17cd11cd12d070cfefe7b66",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_domain_extension_fixed_dx.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_domain_extension_point_reuse.py": {
+    "sha256": "8c18ac1506eac2f9a68cb7170aac96b1b4fcc3ca248a4a19f5d767dac5f02a43",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_domain_extension_point_reuse.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_field_token_domain_extension.py": {
+    "sha256": "9d17b86dda614d787f1a547f08b16db06b95d7479e121697466d318d32167b3e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_field_token_domain_extension.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_global_comparison.py": {
+    "sha256": "50afb7596c4cc5e932fd82ae49b24ddbf78473841140c4753155e1cee719e34d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_global_comparison.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_input_correction_domain_extension.py": {
+    "sha256": "85c71e329e4f0db8a0e7c9417d6820d6056b5f72ab363b242df32f15b4a7f720",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_input_correction_domain_extension.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_latent_schur_pairs.py": {
+    "sha256": "40d3846161fc1a701a6afae9cc6a4c2d20697eba7e79402ee316223a49b2fad8",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_latent_schur_pairs.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_matched_ddm_frontier.py": {
+    "sha256": "6cfa32e739f90c502b39b5cf6b42e0b788be2c13f8c7a1c8993b67a48234a044",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_matched_ddm_frontier.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_one_pass_timing.py": {
+    "sha256": "58def039431cf775b657cf9af6825c923a43f8a1262b77c38604a8888ecdc2c2",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_one_pass_timing.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_seeds.py": {
+    "sha256": "3d9f28c76eb9e65294a4132fd55924e31be319e70c4df10fec3e0670a390a5b6",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_seeds.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_spectrum_bootstrap.py": {
+    "sha256": "3c18bdd3cadb73ce2da28f89ff653de1b10ffaebfdc41080e591b786a1ebba87",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_spectrum_bootstrap.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_theorem_decomposition.py": {
+    "sha256": "faabf804dd6e559996ffb0248d35d848047b5014471a21da667455e87e7ebadb",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_theorem_decomposition.py"
+  },
+  "codiffuse_Schwarz_Darcy/summarize_two_level.py": {
+    "sha256": "ba59856e9ad15c80b0af58dbd49ada713a3ee085319c052d8fb5939daab05cbf",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/summarize_two_level.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_benchmark_field_token_decomposed_methods.py": {
+    "sha256": "1f5fa71c798c4f685012afe472e856bf09fc4a4e44068d510f0607b23dbfe564",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_benchmark_field_token_decomposed_methods.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_communication_stage.py": {
+    "sha256": "3caf959afe798d2012249f23c9d99c2c138305a5a6aed23dfdce9ffc6c9da9f7",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_communication_stage.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_dataset.py": {
+    "sha256": "e5da61e44dd4a98f060c8357d63179391607de11cc293771c57062463a1cbf1b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_domain_extension_dataset.py": {
+    "sha256": "cc16069800a7ba8e7c970c8f6f65f98d58aa15cff7e09b6bf0a04f3885fe7863",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_domain_extension_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_field_token_composer.py": {
+    "sha256": "21b619d12b926212b18f461027f537c62067b889f183acb8a630ffaabbcf9cbe",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_field_token_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_global_baseline.py": {
+    "sha256": "e07fa0f838bc16956ee910ded849314ac5d68b18fb4833ae5176ce8e3567dcf7",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_global_baseline.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_make_core_sni_init_only_evidence.py": {
+    "sha256": "82b6b97567cf8e4b6904bdf57ce7080f2c8b67fa99f2cbe4140de96928b56d7e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_make_core_sni_init_only_evidence.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_masked_anchor_operator.py": {
+    "sha256": "a796c3ab589ad6c5d459fc1385de6177be85d88b3c450503649dbe012e49d538",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_masked_anchor_operator.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_protected_test_evaluators.py": {
+    "sha256": "e93fbc2a09d5819bfc64b8d7ba49ff06bd82995a414e384920a29829f36104fe",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_protected_test_evaluators.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_summarize_domain_extension_fixed_dx.py": {
+    "sha256": "3c6e53ab3426d30d4622f9d1bc2d2d4dde1e3831740763b453745013b51f59dc",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_summarize_domain_extension_fixed_dx.py"
+  },
+  "codiffuse_Schwarz_Darcy/test_two_level.py": {
+    "sha256": "5e0563e91ff4bbb37dd134cf945377e017b95ffaf3a1108e85e81be3c2fc529e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/test_two_level.py"
+  },
+  "codiffuse_Schwarz_Darcy/time_dynamic_darcy_one_pass.py": {
+    "sha256": "44c50af65ca957cc66115cbdeb7b62375d2611f0069fe1e4af06b5cbb88679b3",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/time_dynamic_darcy_one_pass.py"
+  },
+  "codiffuse_Schwarz_Darcy/time_matched_weighted_pou_sni.py": {
+    "sha256": "d976980cb6864aa067fd8ccd7172f32494bb07ae36a95ca3debdfbb495d7fa1c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/time_matched_weighted_pou_sni.py"
+  },
+  "codiffuse_Schwarz_Darcy/train.py": {
+    "sha256": "0a67e41d05b92eb2769f30232f9a8e2bbd2ae9923b17a96abfee33b07157bfd9",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_communicated.py": {
+    "sha256": "e61132d13723d298321a8c119f9ecf2e9d8adfc32cbe781556cd35d2d05def73",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_communicated.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_face_local.py": {
+    "sha256": "6b9678bd6d8e3d08c4a63966c2fa44d8c3e039168acbaad225b4bb8076453915",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_face_local.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_field_token_composer.py": {
+    "sha256": "beea63aad46a2b83269851cbb6719f98bd19f3aa2dc97915e477538c48f60151",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_field_token_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_global.py": {
+    "sha256": "6b04029401dabc2e60989344ff77b54e2cbc0e95212ba0a11bf840d7c6a11def",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_global.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_incremental_flux_remote_schur.py": {
+    "sha256": "49b73b9bdb66efab9379f898a3d60d6bc7c7bfa86f867522be48c4acf1d70920",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_incremental_flux_remote_schur.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_input_correction_latentddm.py": {
+    "sha256": "a9dae2878cce6ee62a16f29f974eed318d810a56a94802aa47667884fd622681",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_input_correction_latentddm.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_operator_composer.py": {
+    "sha256": "965c6a3881f21217338809f5e9eb87c221b9e6d69690fd6cd90783e97a52d4ca",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_operator_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_residual_port_chart.py": {
+    "sha256": "3ee252cd59f38a7ef3ae01db1195a101fcb62f7ceec0dbb4305c0d9c0617201c",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_residual_port_chart.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_residual_port_communicator.py": {
+    "sha256": "e15d20ef1b1de763c43880d264618dfcbf38d45d75c299e8dfbb755389a745ba",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_residual_port_communicator.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_robin_local.py": {
+    "sha256": "00804552a1a7170adc4f04fd7d546bcb90b2fd8e023f89488fa5785909196fc5",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_robin_local.py"
+  },
+  "codiffuse_Schwarz_Darcy/train_semantic_composer.py": {
+    "sha256": "37d446bef7ae7254f782bdff022f1ad083784cf729e2297b8e5411c60c5d0727",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/train_semantic_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/two_level.py": {
+    "sha256": "830d550af97a1b181817d70a8c6dd13c93ebd386dcc2f9c0f448e93ed8255e30",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/two_level.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_dynamic_remote_suffix.py": {
+    "sha256": "0f0b34219c867f086c22d9c1f580c2940265638249407ed4f5ff5d51629447de",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_dynamic_remote_suffix.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_face_sni.py": {
+    "sha256": "bbd61c960c6a8cb3e5d1d6ea1926291cf3364a87dd6fee319fdd85f57b4dd1be",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_face_sni.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_huang_extended.py": {
+    "sha256": "38f7f85c8f2815bb9b305393bbe68f90a8b0ed48774b0317edac16c3a0642471",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_huang_extended.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_latent_schur.py": {
+    "sha256": "441c396fe7d551f923a1593068c4b00511e8048f95c43f24bc626c745f9ef9cd",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_latent_schur.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_neural_robin_osm.py": {
+    "sha256": "3f2c0248d8fe3d88fee55cd13fc8b67b06a0f28381dbf3bcb229ae4d8d86d18b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_neural_robin_osm.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_oracle_response_chart.py": {
+    "sha256": "9ef0ebc3b2e6bdcba5562aa52c0b9f2e0364c6da1beaa8411bf981afbdcd63fc",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_oracle_response_chart.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_relative_green_flux.py": {
+    "sha256": "a2b291934e0c6eaee4452fd9c2898ba67a515eae99c257e7040220c4bcabaf4f",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_relative_green_flux.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_residual_port_composer.py": {
+    "sha256": "3999635ae9e16985256a0ad96544d86e5c8cdb97b78fce34ba7a6798a155adf4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_residual_port_composer.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_residual_port_remote_pairs.py": {
+    "sha256": "9be2ea2994a7d6c6da667824ce0ecf3aafa90e7af3cdd1de203f1499ddaea29e",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_residual_port_remote_pairs.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_robin_osm.py": {
+    "sha256": "91def543e13f22d5ab6cbfafae20dc72a71a89b46d2700d5eb296c3a7fc72096",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_robin_osm.py"
+  },
+  "codiffuse_Schwarz_Darcy/validate_value_flux_teacher_remote_pairs.py": {
+    "sha256": "7e2879593abb55979cc3b5865e19223f4d88b7b2d7973dcda83b972c13b9d843",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/validate_value_flux_teacher_remote_pairs.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_dataset.py": {
+    "sha256": "f68704842727ca8b6cf40cca3714c65e409f41854e6ac7b9f5a73a678700d651",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_dataset.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_domain_extension_scaling.py": {
+    "sha256": "84da02b57f7aea3f034a5913bd29223d2acd7300d0ab459fd1606e03557779c9",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_domain_extension_scaling.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_five_method_comparison.py": {
+    "sha256": "23e09a3a399e3265329c7ba607411ba8bfd1006bca7c48c9df3882064591a26d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_five_method_comparison.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_fixed_dx_source_target_five_method.py": {
+    "sha256": "819f43f68d676df92044334ca9dcbd6f9fa8e8daa1dc9476fb57cf36f059f3bf",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_fixed_dx_source_target_five_method.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_frozen_latentddm_case.py": {
+    "sha256": "a5e53b1f70bac173acf56478ec3619defa5f6a24c7ee81a3bea793a85f7410a1",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_frozen_latentddm_case.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_input_correction_seven_method.py": {
+    "sha256": "1878595ff95fa6915da22e9d59bc6eadd72789fc24e93041366991dec1a3d239",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_input_correction_seven_method.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_six_method_comparison.py": {
+    "sha256": "07b0f7186989a1a9454fd3f8e9b264fb29f6f023cc20bba03c958dce23c8f95d",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_six_method_comparison.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_solution_ddm_comparison.py": {
+    "sha256": "53249c7172fbbe615d2236b33ec10ade1f0a036133fa8212506cd1694044bcd8",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_solution_ddm_comparison.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_source_target_adaptation.py": {
+    "sha256": "52fac9a79256e0f30a64e729253e3c531f3d8e1c24aad7a3a9f4e61e52bd27f1",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_source_target_adaptation.py"
+  },
+  "codiffuse_Schwarz_Darcy/visualize_validated_ddm_comparison.py": {
+    "sha256": "9330eefa8bb86af0c801b4cc375b91d789214565796c5c8c4f27ebfe3478dbc2",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Darcy/visualize_validated_ddm_comparison.py"
+  },
+  "codiffuse_Schwarz_Airfoil/rollout_absolute_robin_latentddm.py": {
+    "sha256": "26a1ee69743ca6fc3373edf3753bc0ab666c7a455a30195deec36d845b30c472",
+    "origin": "codiffuse_Schwarz_Airfoil/rollout_absolute_robin_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/absolute_robin_latentddm.py": {
+    "sha256": "13d851d423bb97c77bb27263f25d98b8a512ab868e4c31741b288555e8b17459",
+    "origin": "codiffuse_Schwarz_Airfoil/absolute_robin_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/absolute_robin_sni.py": {
+    "sha256": "d95873030450ce40b987192012f11ff2f71f3624c5277f8eed077b74e64b1e65",
+    "origin": "codiffuse_Schwarz_Airfoil/absolute_robin_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_flux_conditioned_sni.py": {
+    "sha256": "872fce0a860f818210d9b7b7e9caf1208462b6ded3ddd265eaebf1a12c56a435",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_flux_conditioned_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_sni.py": {
+    "sha256": "c25a81657c1b84ed6cd387bec86086c2b4e3b440f0aabdbead4d3ae6268ccbf5",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/cartesian_cover.py": {
+    "sha256": "44d2400cfede161a5b178d1030b43f4b1bac200d4330dad17716d2f1f06bec88",
+    "origin": "codiffuse_Schwarz_Airfoil/cartesian_cover.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_trace_sni.py": {
+    "sha256": "1eccd0f7ae79d46074d07b421a2922b9dba3d783df8179d16fc6c7c1bc3dc53f",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_trace_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/pressure_coarse_correction.py": {
+    "sha256": "0d5a7e15bc881b2b18dc951ad100f1132bd484158e21386fdd9fac100c180d65",
+    "origin": "codiffuse_Schwarz_Airfoil/pressure_coarse_correction.py"
+  },
+  "codiffuse_Schwarz_Airfoil/absolute_robin_state_latentddm.py": {
+    "sha256": "0506334dc12c1c20bcc36679b137c9faa4b93a5a038899a711deb6905963a29e",
+    "origin": "codiffuse_Schwarz_Airfoil/absolute_robin_state_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/dataset.py": {
+    "sha256": "f43047e7a7fcf440c3348ed8250cd6763f4176711e4958364dc6b96a93bc4685",
+    "origin": "codiffuse_Schwarz_Airfoil/dataset.py"
+  },
+  "codiffuse_Schwarz_Airfoil/evaluate_global_validation_protocol.py": {
+    "sha256": "adbd4a235ec42bd9abb60ec1e9e6d8d52faf3d42224d71a390ac96890c60c8b2",
+    "origin": "codiffuse_Schwarz_Airfoil/evaluate_global_validation_protocol.py"
+  },
+  "codiffuse_Schwarz_Airfoil/compare_head_to_head_v3.py": {
+    "sha256": "5a5536f93d822cf25fe1233fbd30de88789a6b62c0b47266708c3731fb2be31a",
+    "origin": "codiffuse_Schwarz_Airfoil/compare_head_to_head_v3.py"
+  },
+  "codiffuse_Schwarz_Airfoil/compare_multitrajectory_models.py": {
+    "sha256": "344e4166ed4e77e3e980ab86a325f865349cdb500d07d5912cc0353c211beb03",
+    "origin": "codiffuse_Schwarz_Airfoil/compare_multitrajectory_models.py"
+  },
+  "codiffuse_Schwarz_Airfoil/coupled_trajectory.py": {
+    "sha256": "2cacae1f0f235b46900be2cd17e688edf4cc8b26e7b499cc8877387a38e2e242",
+    "origin": "codiffuse_Schwarz_Airfoil/coupled_trajectory.py"
+  },
+  "codiffuse_Schwarz_Airfoil/motion_control.py": {
+    "sha256": "38a50605726e6971f150b335fd86b7f876fb66588bbfbb756eab1ba10cf70dd9",
+    "origin": "codiffuse_Schwarz_Airfoil/motion_control.py"
+  },
+  "codiffuse_Schwarz_Airfoil/force_diagnostics.py": {
+    "sha256": "b5c5e10b3dbfc73ba5a7105c70a353c74f23aee60f0bf0b7543bb2be112c0c0f",
+    "origin": "codiffuse_Schwarz_Airfoil/force_diagnostics.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_global_abupt.py": {
+    "sha256": "bb365d2c4ca70c7b9cc3fe7447e7a39ccc256ec1fb59724ec4e2ccdeb3125d04",
+    "origin": "codiffuse_Schwarz_Airfoil/train_global_abupt.py"
+  },
+  "codiffuse_Schwarz_Airfoil/expanded_protocol.py": {
+    "sha256": "26725afa8c66f191c7bad2155e2a87999191be307b2159865efe632fbbe9030a",
+    "origin": "codiffuse_Schwarz_Airfoil/expanded_protocol.py"
+  },
+  "codiffuse_Schwarz_Airfoil/trajectory_corpus.py": {
+    "sha256": "8dcf669dfa3723d0b68ca7cad5a5c909264683d0f2ee9239b783ec9dc03d6497",
+    "origin": "codiffuse_Schwarz_Airfoil/trajectory_corpus.py"
+  },
+  "codiffuse_Schwarz_Airfoil/vorticity_projection.py": {
+    "sha256": "876096279ba87d4bdedd9253c1af98d128104e8b4f1af1ee5f66537a245dbb5a",
+    "origin": "codiffuse_Schwarz_Airfoil/vorticity_projection.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_one_step_multilevel.py": {
+    "sha256": "0e4e5e110891fdc71d2ef03f40f4e799cc9009d0e9195e6b8c51d5b83a8a9f30",
+    "origin": "codiffuse_Schwarz_Airfoil/train_one_step_multilevel.py"
+  },
+  "codiffuse_Schwarz_Airfoil/model.py": {
+    "sha256": "810473f79d01877061bcc8bf4ccd5e423a5d1820b4cedaf1651635cde4cc0c58",
+    "origin": "codiffuse_Schwarz_Airfoil/model.py"
+  },
+  "codiffuse_Schwarz_Airfoil/multilevel_coupling.py": {
+    "sha256": "d513a40658b2a7598723ee1c1d51b16db3841f7c23fc9646e72e021783cf9443",
+    "origin": "codiffuse_Schwarz_Airfoil/multilevel_coupling.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_robust_vorticity_projection.py": {
+    "sha256": "98d2162e08e776c7b3a9afeaffe287912d0871450ebec27529d4d5c771b87212",
+    "origin": "codiffuse_Schwarz_Airfoil/train_robust_vorticity_projection.py"
+  },
+  "codiffuse_Schwarz_Airfoil/global_mpp.py": {
+    "sha256": "f85cfe8de2888884801048fdb7ba9eecfc59aa46af27f0f06f246fc6b33314ab",
+    "origin": "codiffuse_Schwarz_Airfoil/global_mpp.py"
+  },
+  "codiffuse_Schwarz_Airfoil/interface_operator.py": {
+    "sha256": "a61d29842eca878124e903c8730ae13a14173eb94ee5f101165b8da5b32d4d28",
+    "origin": "codiffuse_Schwarz_Airfoil/interface_operator.py"
+  },
+  "codiffuse_Schwarz_Airfoil/interface_trace.py": {
+    "sha256": "e9d629e2b8a8c3c421dec7654b29a766984223330cbc72c72c48c3ffe4d4f053",
+    "origin": "codiffuse_Schwarz_Airfoil/interface_trace.py"
+  },
+  "codiffuse_Schwarz_Airfoil/multiresolution.py": {
+    "sha256": "166e525452d519caac5073ec6ab6f0a02b122f362c9982542fdb540fd373a27c",
+    "origin": "codiffuse_Schwarz_Airfoil/multiresolution.py"
+  },
+  "codiffuse_Schwarz_Airfoil/multiresolution_inference.py": {
+    "sha256": "9ce4b5c85cf2e01c8e48c65fbf863a09a2e911224c9610cdaa95f6e5cf7d4e59",
+    "origin": "codiffuse_Schwarz_Airfoil/multiresolution_inference.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_global_transolver.py": {
+    "sha256": "aa2e9cf61ab54f479d5bd197ab36a898c2b8088777cdce81564eddb42cdcc402",
+    "origin": "codiffuse_Schwarz_Airfoil/train_global_transolver.py"
+  },
+  "codiffuse_Schwarz_Airfoil/training_resume.py": {
+    "sha256": "52aabea89cc0cd9df84f1b642c4d62f2ab0a4388d0c706d2a8a567e9722ec3fe",
+    "origin": "codiffuse_Schwarz_Airfoil/training_resume.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_multiresolution_projection.py": {
+    "sha256": "f1d98900417cfd49782df55c147c1a30eeed481c73e519d31cbc4f271e4ba945",
+    "origin": "codiffuse_Schwarz_Airfoil/train_multiresolution_projection.py"
+  },
+  "codiffuse_Schwarz_Airfoil/evaluate_airfoil_sni.py": {
+    "sha256": "c9ee1aca13cc40cf6ef55fdb6c073b0af792711052f054d9c2ef2d0801d75d0c",
+    "origin": "codiffuse_Schwarz_Airfoil/evaluate_airfoil_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_rollout.py": {
+    "sha256": "9b6120ac1dbacf1453fcf9c40232baf5ef03bb7c2fcc8a70b962aa74adc0f137",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_rollout.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_compatibility_experiment.py": {
+    "sha256": "406fb5c2e40024b8299f1afa258435f581537bde2d41a9cae310dcfc033285de",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_compatibility_experiment.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_compatibility.py": {
+    "sha256": "d0a6188931dadc78b540fc5768e425b294bb321966d12e49b6e9741e26ac93e7",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_compatibility.py"
+  },
+  "codiffuse_Schwarz_Airfoil/evaluate_feature_schwarz_ablation.py": {
+    "sha256": "f64bcb22c4d1ca91c39455651550b8c4dbfb56c523c2acaa0a0a86237e05577e",
+    "origin": "codiffuse_Schwarz_Airfoil/evaluate_feature_schwarz_ablation.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_codiffuse_schwarz_rollout.py": {
+    "sha256": "58c84b2cd00ca2667141e1e5b775f3a3ac0edde63c5aecd6be36987cc5c98eb4",
+    "origin": "codiffuse_Schwarz_Airfoil/train_codiffuse_schwarz_rollout.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_two_level.py": {
+    "sha256": "8448298aa3ae0aec24b3ad21e309f1a0f41f0e4965d88b59bd5faf34992a96f6",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_two_level.py"
+  },
+  "codiffuse_Schwarz_Airfoil/cell_role_metrics.py": {
+    "sha256": "ae4b11c913999bada2331b0b0815c493893307fd20922cfacbdd3313d052f1cc",
+    "origin": "codiffuse_Schwarz_Airfoil/cell_role_metrics.py"
+  },
+  "codiffuse_Schwarz_Airfoil/level_specific.py": {
+    "sha256": "b0cf4181ce88ebe81d7ca63ba98a68bd55b4e0f80df12b3cf15c005afb16a16b",
+    "origin": "codiffuse_Schwarz_Airfoil/level_specific.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_multitrajectory_multiresolution.py": {
+    "sha256": "72745d84dad43a72fcd7152b1c53acd5d6764c67f18db8f87a7a8e9a2ed6ce5b",
+    "origin": "codiffuse_Schwarz_Airfoil/train_multitrajectory_multiresolution.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_defect_analyzer_experiment.py": {
+    "sha256": "9b45efd6abf4bf69d52afe113a86572e54be097024c758e75627153d30f4ad5f",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_defect_analyzer_experiment.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_defect_ports.py": {
+    "sha256": "132e6e9bbb98977447f34847ed0a4fc4d161f5aa92ffb5d7bb38f7ec6d64e687",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_defect_ports.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_analyzer.py": {
+    "sha256": "408c885bd73ecdcee5c62a895daaeea8e7ca5dad9f6abe804187ae3c00627942",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_analyzer.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_analyzer_experiment.py": {
+    "sha256": "0aa67917741dd6a87e14012bf35255827b5338fdad2f597495ba2a80a00d7efa",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_fixed_point_analyzer_experiment.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_physical_residual.py": {
+    "sha256": "f96213ac67c266deb0223d1ca9f74f454e6ab6f431d485f8d61613da24834afd",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_physical_residual.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_tile_momentum_student.py": {
+    "sha256": "b2535df9a7a78bb8ceb6f1ae7f23e301b4a36ac4a7a7f9b36ca00e3d9966d1ea",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_tile_momentum_student.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_latent_schur_physical_ablation.py": {
+    "sha256": "5c8ab68c7334140fd52b0f0cee5c4ba1fc2d727ae82aa94d1338652e83b12173",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_latent_schur_physical_ablation.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_latent_schur_reference.py": {
+    "sha256": "6d295adb6a5828e2130386ff2035cc2a3a98fe43a8b41cd0dbd9f1c9b0225b48",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_latent_schur_reference.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_physical_residual_preflight.py": {
+    "sha256": "a719d4c7651fc4411933459fa7d285d03a51569ec1c62ee09538ae2625b5f906",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_physical_residual_preflight.py"
+  },
+  "codiffuse_Schwarz_Airfoil/rollout_tile_momentum_student.py": {
+    "sha256": "313dc1ec60f559fcccd1b460dfb342a18a769549588f21febd5d54c547c5c2f2",
+    "origin": "codiffuse_Schwarz_Airfoil/rollout_tile_momentum_student.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_tile_momentum_student.py": {
+    "sha256": "982dc202a64a88c6ec5f5057d0874077485bd949c89ed0a347715aed28b31266",
+    "origin": "codiffuse_Schwarz_Airfoil/train_tile_momentum_student.py"
+  },
+  "codiffuse_Schwarz_Airfoil/matched_patch_response_objective.py": {
+    "sha256": "960f1af609ab9f81249174721698b286eb59790da1826fa0a51692b4ae5ec34a",
+    "origin": "codiffuse_Schwarz_Airfoil/matched_patch_response_objective.py"
+  },
+  "codiffuse_Schwarz_Airfoil/final_holdout_contract.py": {
+    "sha256": "11c107346544ed3e306d61ab1357883073a6e4a50baf02c8c37540f6f022f90d",
+    "origin": "codiffuse_Schwarz_Airfoil/final_holdout_contract.py"
+  },
+  "codiffuse_Schwarz_Airfoil/rollout_absolute_robin_sni.py": {
+    "sha256": "0a63003daf2c00afdc43b843915c1680abac842518eb263b6ffe7b705f679e34",
+    "origin": "codiffuse_Schwarz_Airfoil/rollout_absolute_robin_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_absolute_robin_bvp.py": {
+    "sha256": "daea09cdc9d40f197fca0725de6645abba7808b4e056dc5e6193f93fbc51cd69",
+    "origin": "codiffuse_Schwarz_Airfoil/train_absolute_robin_bvp.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_locality.py": {
+    "sha256": "68c05c225227e3146c7851857018e655b649f2212a9633b78e28d393ee09c1c6",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_locality.py"
+  },
+  "codiffuse_Schwarz_Airfoil/airfoil_physical_losses.py": {
+    "sha256": "cf532b6749e27d7f7f0ac1b8c5b027a60dee1dbd73625bac1f386d094756f093",
+    "origin": "codiffuse_Schwarz_Airfoil/airfoil_physical_losses.py"
+  },
+  "codiffuse_Schwarz_Airfoil/optimized_stokes_robin.py": {
+    "sha256": "1fc84a2bc98685b0dd33e547fa090d645507e950317de55f553fdac173d24786",
+    "origin": "codiffuse_Schwarz_Airfoil/optimized_stokes_robin.py"
+  },
+  "codiffuse_Schwarz_Airfoil/stokes_robin_sni.py": {
+    "sha256": "a8edb3a1bdf7d7deeb23d1b97f084effb1e12f25537ab4cdf3ad06de21737523",
+    "origin": "codiffuse_Schwarz_Airfoil/stokes_robin_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/native_dirichlet_sni.py": {
+    "sha256": "5d1c47de267eeae00fea17fb38c22e9edf880c927084ac3a515e0ce605b383f8",
+    "origin": "codiffuse_Schwarz_Airfoil/native_dirichlet_sni.py"
+  },
+  "codiffuse_Schwarz_Airfoil/point_boundary_input_response.py": {
+    "sha256": "25b4450486fb33bb2994a7302ca630616df44c6df7dd8d9daadf0e799333f4ab",
+    "origin": "codiffuse_Schwarz_Airfoil/point_boundary_input_response.py"
+  },
+  "codiffuse_Schwarz_Airfoil/native_incflo_response.py": {
+    "sha256": "321cece9a818039e4d3ca16b0a7b24159199d5e0012810251fc3c4ecd4339591",
+    "origin": "codiffuse_Schwarz_Airfoil/native_incflo_response.py"
+  },
+  "codiffuse_Schwarz_Airfoil/incflo_helmholtz_projection_response.py": {
+    "sha256": "b23498b8ad3552f235db04443463ab22ca33c276e78c8c66dcb6927e0af01435",
+    "origin": "codiffuse_Schwarz_Airfoil/incflo_helmholtz_projection_response.py"
+  },
+  "codiffuse_Schwarz_Airfoil/discrete_modified_stokes_response.py": {
+    "sha256": "a7eb207e6d914b29195b8d3048a03ca657fcada0f692a652ea33e5c4edcf7d99",
+    "origin": "codiffuse_Schwarz_Airfoil/discrete_modified_stokes_response.py"
+  },
+  "codiffuse_Schwarz_Airfoil/native_learned_boundary_response.py": {
+    "sha256": "001ca6e7978abebd82af69b0308491e5fcc99a1338fa895d4e1952084a9af8be",
+    "origin": "codiffuse_Schwarz_Airfoil/native_learned_boundary_response.py"
+  },
+  "codiffuse_Schwarz_Airfoil/boundary_geometry_abupt.py": {
+    "sha256": "d6083d4e04ad2dbf56f9a31fbed745c5b35d26f76bcab1c290367233c7994f3b",
+    "origin": "codiffuse_Schwarz_Airfoil/boundary_geometry_abupt.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_absolute_robin_latentddm.py": {
+    "sha256": "71180cf4ad00c3c1b78f7a095ebef5f4402b03b979dc883c8b28a486a8011aa9",
+    "origin": "codiffuse_Schwarz_Airfoil/train_absolute_robin_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/native_port_latentddm.py": {
+    "sha256": "bba5b696e77118342a8ac05b916c72aed1c79e2c9762e9c5444e7dbd05c87355",
+    "origin": "codiffuse_Schwarz_Airfoil/native_port_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/train_native_port_latentddm.py": {
+    "sha256": "26ffee2c79f2425c25707385a0e150190aca247f2886b240e43cb5fe9abdb92e",
+    "origin": "codiffuse_Schwarz_Airfoil/train_native_port_latentddm.py"
+  },
+  "codiffuse_Schwarz_Airfoil/evaluate_fixed_cadence_global_rollout.py": {
+    "sha256": "c714b53aac2687c6999c1496c63c0229828133ccbcd1c8d8c61f240a59525415",
+    "origin": "codiffuse_Schwarz_Airfoil/evaluate_fixed_cadence_global_rollout.py"
+  },
+  "codiffuse_Schwarz_Airfoil/aggregate_pitch_rate_ood_rollouts.py": {
+    "sha256": "97d2f7944edda39b30a5ff7c5cfc5590d58527f59ff65b7a48780dc90c22e08e",
+    "origin": "codiffuse_Schwarz_Airfoil/aggregate_pitch_rate_ood_rollouts.py"
+  },
+  "codiffuse_Schwarz_Airfoil/__init__.py": {
+    "sha256": "3aaa69cb02a3cda6df313663011948301b8e8fb4eff385b7f847c3d6dcd7dcdf",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/__init__.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/__init__.py": {
+    "sha256": "543728a1dc701870b092b11722a6742be7cca228e29f1f53ca3bbb8b4aff7dee",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/__init__.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/adapter.py": {
+    "sha256": "9c3e6e77be0bb187a1bd61411ecd11147bf2dd87d0efec246f40974021646d69",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/adapter.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/cover.py": {
+    "sha256": "6166faabe415e0e64e21124b94cc2772c4e27c20b2b4464d0c5e09aac16b8b0e",
+    "origin": "codiffuse_Schwarz_Airfoil/code_transfer/cover.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/direct.py": {
+    "sha256": "d58a52314bc0b55332cb3da920c6449e294fd48346e32c0934dc5106dec2c853",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/direct.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/example_diffusion.py": {
+    "sha256": "d92a977e3c20a9002458b2f9ea610e8e5bef869e97e800203454866ce9ca2ae4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/example_diffusion.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/experimental_flow.py": {
+    "sha256": "c7a58e733f92bf22307e12dc0f541a7ef6f4d57f81c031020c08ef5871765d86",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/experimental_flow.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/hierarchy.py": {
+    "sha256": "21bd5addce0f11e856d02b02ea9db62c5ee98e3e6c0a52b12375973249891d76",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/hierarchy.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/model.py": {
+    "sha256": "fa060979a86d70bdb4681bdd60a1c2b2e5477b804e03da1f5c83c7ccf4ff11d4",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/model.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/schwarz.py": {
+    "sha256": "a9d0177204086f1f74f479c9c6ddcbf09a913aa7a3c43039b7c2d7acde339a6b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/schwarz.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/test_code_transfer.py": {
+    "sha256": "97e8ac1edf00ab0f5720f1eda1fe6769b2a18e4ce88fabbf82909ea7546fd944",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/test_code_transfer.py"
+  },
+  "codiffuse_Schwarz_Airfoil/code_transfer/training.py": {
+    "sha256": "fdaeaa38b5018f7a0997adeaba1230642eb0eecd446ced0f503610119ba41f88",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/codiffuse_Schwarz_Airfoil/code_transfer/training.py"
+  },
+  "iclr2027/experiments/darcy_adaptation_location_20260921/experiment.py": {
+    "sha256": "62147653444f0e78e461908598dd8c845cb2b893f1d328e42518684c6b6254bf",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/iclr2027/experiments/darcy_adaptation_location_20260921/experiment.py"
+  },
+  "iclr2027/experiments/darcy_adaptation_location_20260921/submit.py": {
+    "sha256": "80d27bc42f5feab15362f128cff02477210ec2988a9d2e98451670d74054a684",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/iclr2027/experiments/darcy_adaptation_location_20260921/submit.py"
+  },
+  "iclr2027/experiments/darcy_adaptation_location_20260921/test_experiment.py": {
+    "sha256": "038462f93247a9dbd3fcf5b20877829db51071f50bb660d75c1bf3e9db95d139",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/code_snapshot/iclr2027/experiments/darcy_adaptation_location_20260921/test_experiment.py"
+  },
+  "iclr2027/experiments/darcy_adaptation_location_20260921/test_analysis.py": {
+    "sha256": "6c9a0ca64693bcb96073df97909638ab9f86f9330cede2c2d1951212797c244b",
+    "origin": "iclr2027/experiments/darcy_adaptation_location_20260921/test_analysis.py"
+  },
+  "src/neural_eos/cavity_flow.py": {
+    "sha256": "dac83431e6086326605f94c480b95b3f5a36f513b6d50aca6473db2eff0911e4",
+    "origin": "src/neural_eos/cavity_flow.py"
+  },
+  "src/neural_eos/geometry.py": {
+    "sha256": "dfaaa1bdb43340f03b708c06989968a2ec3f703be6b13e21afd4459c4d544a08",
+    "origin": "src/neural_eos/geometry.py"
+  },
+  "src/neural_eos/patches.py": {
+    "sha256": "f0656284d9015b3f661289f2f65ac0db9fa907b80ffea92526e524e27e7199c1",
+    "origin": "src/neural_eos/patches.py"
+  },
+  "src/neural_eos/__init__.py": {
+    "sha256": "a117ae007650ec954303a0b0d3319488102d92a49132416714f03d7ed54bbd9d",
+    "origin": "src/neural_eos/__init__.py"
+  },
+  "src/neural_eos/device.py": {
+    "sha256": "411cfe1dfc2f23d368b3e931378b21a7e881b295b146fa57e48a08608436ccbc",
+    "origin": "src/neural_eos/device.py"
+  },
+  "src/neural_eos/full_field.py": {
+    "sha256": "da5f6228023486811325d20f859bc0488e0cfff98c4255fd44c70a0a13d78db3",
+    "origin": "src/neural_eos/full_field.py"
+  },
+  "src/neural_eos/source_diffusion.py": {
+    "sha256": "5d1e80ae7a17f6bb6434d5cde13b90dd6121917d3018b7eaf3f34687096f12c7",
+    "origin": "src/neural_eos/source_diffusion.py"
+  },
+  "src/neural_eos/spectral.py": {
+    "sha256": "3f922ee6238ec7feb6da9354bae2442700d3963d9cb03a7a6ba74900e7c0dc9b",
+    "origin": "src/neural_eos/spectral.py"
+  },
+  "src/neural_eos/classical_amr_ddm.py": {
+    "sha256": "f9bafd1d26e6ee5d76a6d16ed04668296389967875a1678c697383792076604a",
+    "origin": "src/neural_eos/classical_amr_ddm.py"
+  },
+  "src/neural_eos/block_structured_amr.py": {
+    "sha256": "1fa72329dadb6a39bff4fd2688c9405a8888e1abaff99a847bd95723e5e02e00",
+    "origin": "src/neural_eos/block_structured_amr.py"
+  },
+  "src/neural_eos/mature_amr_cases.py": {
+    "sha256": "6f7b2401ca18d05514f8c00f89b6eae46bbd4ddb1e593e2f1b15646086d7c781",
+    "origin": "src/neural_eos/mature_amr_cases.py"
+  },
+  "src/neural_eos/johansen_colella.py": {
+    "sha256": "f4cc308103cb2dd001f3446a59d1f077e9b46d08ed171ac4ffde3731c96ff8bb",
+    "origin": "src/neural_eos/johansen_colella.py"
+  },
+  "src/neural_eos/jc_dataset.py": {
+    "sha256": "a44e878214cc2c9d8523d9bc1a93d82dedcff1359e4ca53b1cd695ccd40f0faf",
+    "origin": "src/neural_eos/jc_dataset.py"
+  },
+  "src/neural_eos/abupt.py": {
+    "sha256": "7153d4f2c03cf6e1a0747946f6a3fbe7034cacfea10503a0c8d8cf07b135f6cf",
+    "origin": "src/neural_eos/abupt.py"
+  },
+  "src/neural_eos/cartesian_flow.py": {
+    "sha256": "25b702112c06bf4e045dea1cd61c205c7de8a02f62634bb070b63b17dc859002",
+    "origin": "src/neural_eos/cartesian_flow.py"
+  },
+  "src/neural_eos/transolver.py": {
+    "sha256": "b10277fe107559279dda781f4f1a5f33ea90ac452b722156d06538b0e87e2b8d",
+    "origin": "src/neural_eos/transolver.py"
+  }
+}

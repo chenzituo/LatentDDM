@@ -1,0 +1,98 @@
+{
+  "16x16": {
+    "ci95": [
+      -0.001884142969599149,
+      0.00463287476595724
+    ],
+    "composition_mean": 0.06685476154477026,
+    "delta": 0.0015358072123490274,
+    "interpretation": "inconclusive",
+    "local_adapter_mean": 0.06839056875711928,
+    "seed_differences": [
+      0.0026288822991773486,
+      0.003454808029346168,
+      -0.0014762686914764345
+    ],
+    "seed_means": [
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.067037736880593,
+        "seed": 20260918
+      },
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.06747693801298738,
+        "seed": 20260919
+      },
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.06604960974073038,
+        "seed": 20260920
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.06966661917977035,
+        "seed": 20260918
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.07093174604233354,
+        "seed": 20260919
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.06457334104925394,
+        "seed": 20260920
+      }
+    ],
+    "zero_shot_mean": 0.12649306317325681
+  },
+  "8x8": {
+    "ci95": [
+      -0.010305799523484893,
+      0.001770651648985215
+    ],
+    "composition_mean": 0.07865935517475009,
+    "delta": -0.003816642022381226,
+    "interpretation": "inconclusive",
+    "local_adapter_mean": 0.07484271315236886,
+    "seed_differences": [
+      0.000328681489918381,
+      -0.0010817446745932102,
+      -0.01069686288246885
+    ],
+    "seed_means": [
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.07272217149147764,
+        "seed": 20260918
+      },
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.07935048133367673,
+        "seed": 20260919
+      },
+      {
+        "arm": "composition_only",
+        "mean_relative_l2": 0.0839054126990959,
+        "seed": 20260920
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.07305085298139602,
+        "seed": 20260918
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.07826873665908352,
+        "seed": 20260919
+      },
+      {
+        "arm": "local_adapter_only",
+        "mean_relative_l2": 0.07320854981662706,
+        "seed": 20260920
+      }
+    ],
+    "zero_shot_mean": 0.1215664230985567
+  }
+}

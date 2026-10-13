@@ -1,0 +1,346 @@
+{
+  "root_at_packaging": "/orcd/scratch/orcd/003/zituo/AMR_Diffusion_Foundation/codiffuse_airfoil",
+  "note": "The retained evaluator loads paired L5/L6 trajectories although scores are on L5. Both files are required. File sizes are recorded; content hashes were not recomputed.",
+  "files": [
+    {
+      "name": "cyclic_224_level5_window.h5",
+      "bytes": 245474497,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_224_level6_window.h5",
+      "bytes": 760432217,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_129_level5_window.h5",
+      "bytes": 257832567,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_129_level6_window.h5",
+      "bytes": 799916577,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_003_level5_window.h5",
+      "bytes": 215780805,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_003_level6_window.h5",
+      "bytes": 665060080,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_073_level5_window.h5",
+      "bytes": 271232290,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_073_level6_window.h5",
+      "bytes": 835626337,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_205_level5_window.h5",
+      "bytes": 243690058,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_205_level6_window.h5",
+      "bytes": 764672372,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_007_level5_window.h5",
+      "bytes": 265290452,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_007_level6_window.h5",
+      "bytes": 823035625,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_042_level5_window.h5",
+      "bytes": 262805149,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_042_level6_window.h5",
+      "bytes": 810717647,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_014_level5_window.h5",
+      "bytes": 225408823,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_014_level6_window.h5",
+      "bytes": 707360384,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_190_level5_window.h5",
+      "bytes": 247301621,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_190_level6_window.h5",
+      "bytes": 773641206,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_077_level5_window.h5",
+      "bytes": 242948136,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_077_level6_window.h5",
+      "bytes": 753651856,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_110_level5_window.h5",
+      "bytes": 249160920,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_110_level6_window.h5",
+      "bytes": 777628360,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_099_level5_window.h5",
+      "bytes": 258070118,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_099_level6_window.h5",
+      "bytes": 809544328,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_189_level5_window.h5",
+      "bytes": 262559528,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_189_level6_window.h5",
+      "bytes": 818108096,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_119_level5_window.h5",
+      "bytes": 232720962,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_119_level6_window.h5",
+      "bytes": 724272726,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_144_level5_window.h5",
+      "bytes": 262365529,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_144_level6_window.h5",
+      "bytes": 827199181,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_009_level5_window.h5",
+      "bytes": 270118524,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_009_level6_window.h5",
+      "bytes": 833478151,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_138_level5_window.h5",
+      "bytes": 222790098,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_138_level6_window.h5",
+      "bytes": 700760979,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_091_level5_window.h5",
+      "bytes": 236892503,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_091_level6_window.h5",
+      "bytes": 730228529,
+      "split_manifest": "source_split.json"
+    },
+    {
+      "name": "cyclic_214_level5_window.h5",
+      "bytes": 217199521,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_214_level6_window.h5",
+      "bytes": 682643690,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_094_level5_window.h5",
+      "bytes": 203094330,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_094_level6_window.h5",
+      "bytes": 633949753,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_175_level5_window.h5",
+      "bytes": 250791333,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_175_level6_window.h5",
+      "bytes": 772270329,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_154_level5_window.h5",
+      "bytes": 224961456,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_154_level6_window.h5",
+      "bytes": 703345546,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_179_level5_window.h5",
+      "bytes": 216273077,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_179_level6_window.h5",
+      "bytes": 669169551,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_030_level5_window.h5",
+      "bytes": 220240700,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_030_level6_window.h5",
+      "bytes": 679046833,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_239_level5_window.h5",
+      "bytes": 210377875,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_239_level6_window.h5",
+      "bytes": 658099053,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_059_level5_window.h5",
+      "bytes": 219016824,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_059_level6_window.h5",
+      "bytes": 673751561,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_024_level5_window.h5",
+      "bytes": 220084794,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_024_level6_window.h5",
+      "bytes": 673474287,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_161_level5_window.h5",
+      "bytes": 233716896,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_161_level6_window.h5",
+      "bytes": 733317151,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_122_level5_window.h5",
+      "bytes": 251511986,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_122_level6_window.h5",
+      "bytes": 769927330,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_135_level5_window.h5",
+      "bytes": 209457949,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_135_level6_window.h5",
+      "bytes": 655312988,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_064_level5_window.h5",
+      "bytes": 230343845,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_064_level6_window.h5",
+      "bytes": 700941038,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_159_level5_window.h5",
+      "bytes": 213215216,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_159_level6_window.h5",
+      "bytes": 657746947,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_124_level5_window.h5",
+      "bytes": 224495940,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_124_level6_window.h5",
+      "bytes": 696638373,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_252_level5_window.h5",
+      "bytes": 235378666,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    },
+    {
+      "name": "cyclic_252_level6_window.h5",
+      "bytes": 733440284,
+      "split_manifest": "target_seed20260814_budget01_split.json"
+    }
+  ]
+}

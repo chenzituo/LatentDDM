@@ -1,0 +1,138 @@
+{
+  "choices": {
+    "full": {
+      "method": "full",
+      "position": "fixed_tile_fourier_locality_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_locality_v1/checkpoint.pt",
+      "lr": 3e-05,
+      "score": 0.13897493481636047,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_locality_v1_lr3e-05"
+    },
+    "latent": {
+      "method": "latent",
+      "lr": 0.0001,
+      "score": 0.07484227255918086,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/latent_lr0.0001"
+    },
+    "lora": {
+      "method": "lora",
+      "lr": 0.0001,
+      "score": 0.14107662439346313,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/lora_lr0.0001"
+    }
+  },
+  "trials": [
+    {
+      "method": "full",
+      "position": "normalized_linear_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/global_direct96_pilot_v1/patch_w256_a32_seed20260805/checkpoint.pt",
+      "lr": 3e-05,
+      "score": 0.14816969633102417,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_normalized_linear_fourier_v1_lr3e-05"
+    },
+    {
+      "method": "full",
+      "position": "normalized_linear_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/global_direct96_pilot_v1/patch_w256_a32_seed20260805/checkpoint.pt",
+      "lr": 0.0001,
+      "score": 0.15838231146335602,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_normalized_linear_fourier_v1_lr0.0001"
+    },
+    {
+      "method": "full",
+      "position": "normalized_linear_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/global_direct96_pilot_v1/patch_w256_a32_seed20260805/checkpoint.pt",
+      "lr": 0.0003,
+      "score": 0.19439442455768585,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_normalized_linear_fourier_v1_lr0.0003"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_v1/checkpoint.pt",
+      "lr": 3e-05,
+      "score": 0.15121959149837494,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_v1_lr3e-05"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_v1/checkpoint.pt",
+      "lr": 0.0001,
+      "score": 0.1712232232093811,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_v1_lr0.0001"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_v1/checkpoint.pt",
+      "lr": 0.0003,
+      "score": 0.21490134298801422,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_v1_lr0.0003"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_locality_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_locality_v1/checkpoint.pt",
+      "lr": 3e-05,
+      "score": 0.13897493481636047,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_locality_v1_lr3e-05"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_locality_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_locality_v1/checkpoint.pt",
+      "lr": 0.0001,
+      "score": 0.1523517221212387,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_locality_v1_lr0.0001"
+    },
+    {
+      "method": "full",
+      "position": "fixed_tile_fourier_locality_v1",
+      "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sources/fixed_tile_fourier_locality_v1/checkpoint.pt",
+      "lr": 0.0003,
+      "score": 0.16346994042396545,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/full_fixed_tile_fourier_locality_v1_lr0.0003"
+    },
+    {
+      "method": "latent",
+      "lr": 3e-05,
+      "score": 0.07857525744475424,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/latent_lr3e-05"
+    },
+    {
+      "method": "latent",
+      "lr": 0.0001,
+      "score": 0.07484227255918086,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/latent_lr0.0001"
+    },
+    {
+      "method": "latent",
+      "lr": 0.0003,
+      "score": 0.07610625983215868,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/latent_lr0.0003"
+    },
+    {
+      "method": "lora",
+      "lr": 3e-05,
+      "score": 0.14381113648414612,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/lora_lr3e-05"
+    },
+    {
+      "method": "lora",
+      "lr": 0.0001,
+      "score": 0.14107662439346313,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/lora_lr0.0001"
+    },
+    {
+      "method": "lora",
+      "lr": 0.0003,
+      "score": 0.14184355735778809,
+      "run": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/screen/lora_lr0.0003"
+    }
+  ],
+  "criterion": "8x8 m16 seed20260918 validation relative L2",
+  "protocol_sha256": "516feb7eb380d453338c283e341b62a773b6d4567c6cd9582e8f36c8650dac6c",
+  "protected_test_opened": false,
+  "frozen_at": 1789793419.7484264
+}

@@ -1,0 +1,7 @@
+# Tested environment: Python 3.12, Linux, CUDA-enabled PyTorch.
+# Install a PyTorch build suitable for your CUDA runtime first.
+torch==2.4.1
+numpy==2.3.1
+h5py==3.16.0
+scipy==1.18.0
+matplotlib==3.10.3

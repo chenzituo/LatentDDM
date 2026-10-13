@@ -1,0 +1,66 @@
+{
+  "contract": "darcy_global_full_domain_evaluation_v3",
+  "data": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_8x8_v1.h5",
+  "checkpoint": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/iclr2027_boost_20260918/sweep/8x8/m16/lora_seed20260918/checkpoint.pt",
+  "groups": [
+    "test"
+  ],
+  "protected_test_cases_opened": 1,
+  "configuration": {
+    "groups": [
+      "test"
+    ],
+    "sweeps": 1,
+    "batch_size": 1,
+    "workers": 0,
+    "relaxation": 1.0,
+    "initialization": "zero",
+    "max_cases": 1,
+    "allow_protected_test": true,
+    "cpu": false
+  },
+  "model_spec": {
+    "architecture": "global_patch_transformer",
+    "input_channels": 12,
+    "output_channels": 1,
+    "dimensions": 2,
+    "patch_size": [
+      32,
+      32
+    ],
+    "width": 256,
+    "depth": 8,
+    "heads": 8,
+    "mlp_ratio": 4,
+    "scalar_dim": 4,
+    "dropout": 0.0,
+    "position_encoding": "fixed_tile_fourier_locality_v1"
+  },
+  "current_policy": "zero",
+  "use_discrete_residual": false,
+  "inference_contract": "pde_agnostic_direct_solution_v1",
+  "statistics": {
+    "solution_mean": 0.38480610835581947,
+    "solution_std": 0.14269139197792297,
+    "logk_mean": -0.3355826862853488,
+    "logk_std": 0.20256251066742229,
+    "source_mean": 0.5025754828851877,
+    "source_std": 0.1947770010132759,
+    "bc_mean": 0.3268121791744073,
+    "bc_std": 0.1692337313144533,
+    "sampled_cases": 512
+  },
+  "evaluated_records": 1,
+  "peak_gpu_bytes": 71229440,
+  "summary": {
+    "test/sweep_001": {
+      "relative_l2": 0.15474310517311096,
+      "energy_relative_error": 0.30596813559532166,
+      "residual_rms": 0.31248781085014343,
+      "wall_seconds": 0.2945011339907069,
+      "global_nfe": 1.0,
+      "processed_points": 65536.0,
+      "cases": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-22",
+  "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+  "source_files": 288,
+  "recipes_parsed": 209,
+  "isolated_entrypoints": 8,
+  "unit_tests": {
+    "passed": 6
+  },
+  "external_assets_checked_by_size": 105,
+  "asset_content_sha256_recorded": 105,
+  "saved_budget_mean_and_ci_match": true,
+  "saved_ablation_ci_and_norm_pairing_match": true,
+  "airfoil_reaggregation_curves_and_intervals_exact_match": true,
+  "darcy_smoke": {
+    "composition_case0_relative_l2": 0.071026511490345,
+    "archived_composition_case0_relative_l2": 0.07102636992931366,
+    "lora_case0_relative_l2": 0.15474310517311096,
+    "archived_lora_case0_relative_l2": 0.15474310517311096
+  },
+  "airfoil_smoke": "LatentDDM and Patch, one ID trajectory, one start, horizon 1; successful; not a full reported evaluation",
+  "ablation_fresh_prepare_and_preflight": "passed both arms at 8x8 and 16x16, in separate workspace",
+  "figures_rendered": [
+    "darcy_source_target_adaptation.pdf",
+    "darcy_four_scale_accuracy_time.pdf"
+  ],
+  "full_training_campaigns_rerun": false,
+  "airfoil_per_trajectory_calibration": "excluded by explicit author request",
+  "development_fixes": "Added src.neural_eos dependency, made Darcy smoke batch size 1 to avoid original evaluator partial-batch metadata mismatch, documented paired L5/L6 Airfoil data requirement. Scientific source modules were not changed."
+}

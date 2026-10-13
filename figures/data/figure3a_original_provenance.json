@@ -1,0 +1,360 @@
+{
+  "contract": "darcy_fixed_dx_four_scale_five_method_visual_v1",
+  "split": "validation",
+  "protected_test_cases_opened": 0,
+  "method_order": [
+    "LatentDDM",
+    "SNI-16",
+    "Point",
+    "Slice",
+    "Patch"
+  ],
+  "adaptation_seed_shared_by_learned_methods": 20260811,
+  "assembly": "cosine normalized overlap",
+  "source_retention": "3x3 source data replayed with 4x4-adapted checkpoints",
+  "sni": {
+    "tau": 1.0,
+    "sweeps": 16
+  },
+  "sources": {
+    "local": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/sni_face_local_seed20260806/checkpoint.pt",
+    "scales": {
+      "3x3": {
+        "data": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_full_domain_face_96_v2.h5",
+        "checkpoint_scale": "4x4",
+        "composer": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/input_latent_budget16/seed20260811/checkpoint_best.pt",
+        "point": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/point_seed20260811/checkpoint.pt",
+        "slice": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/slice_seed20260811/checkpoint.pt",
+        "patch": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/patch_seed20260811/checkpoint.pt"
+      },
+      "4x4": {
+        "data": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_4x4_v1.h5",
+        "checkpoint_scale": "4x4",
+        "composer": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/input_latent_budget16/seed20260811/checkpoint_best.pt",
+        "point": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/point_seed20260811/checkpoint.pt",
+        "slice": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/slice_seed20260811/checkpoint.pt",
+        "patch": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/4x4/global_budget16/patch_seed20260811/checkpoint.pt"
+      },
+      "8x8": {
+        "data": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_8x8_v1.h5",
+        "checkpoint_scale": "8x8",
+        "composer": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/8x8/input_latent_budget16/seed20260811/checkpoint_best.pt",
+        "point": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/8x8/global_budget16/point_seed20260811/checkpoint.pt",
+        "slice": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/8x8/global_budget16/slice_seed20260811/checkpoint.pt",
+        "patch": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/8x8/global_budget16/patch_seed20260811/checkpoint.pt"
+      },
+      "16x16": {
+        "data": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_16x16_v1.h5",
+        "checkpoint_scale": "16x16",
+        "composer": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/16x16/input_latent_budget16/seed20260811/checkpoint_best.pt",
+        "point": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/16x16/global_budget16/point_seed20260811/checkpoint.pt",
+        "slice": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/16x16/global_budget16/slice_seed20260811/checkpoint.pt",
+        "patch": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/domain_extension_fixed_dx_v1/16x16/global_budget16/patch_seed20260811/checkpoint.pt"
+      }
+    }
+  },
+  "domains": {
+    "3x3": {
+      "metrics": {
+        "LatentDDM": 0.07290740311145782,
+        "SNI-16": 0.019461993128061295,
+        "Point": 0.08667292445898056,
+        "Slice": 0.050754647701978683,
+        "Patch": 0.14146865904331207
+      },
+      "case_index": 242,
+      "selection": {
+        "rule": "input medoid in active fraction, boundary density, and log-k std",
+        "solution_or_prediction_used": false,
+        "feature_median": [
+          0.3611653645833333,
+          0.031524122807017545,
+          0.18306780606508255
+        ],
+        "feature_mad": [
+          0.0751953125,
+          0.0027412280701754367,
+          0.030639685690402985
+        ],
+        "selected_distance": 0.29879875448286825,
+        "selected_features": {
+          "dataset_index": 242,
+          "case_index": 242,
+          "active_fraction": 0.3541666666666667,
+          "boundary_density": 0.031578947368421054,
+          "active_logk_std": 0.1743897944688797
+        }
+      },
+      "grid": 96,
+      "tile_count": 9,
+      "global_model_specs": {
+        "Point": {
+          "architecture": "darcy_masked_anchor_operator_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "anchors": 128,
+          "mlp_ratio": 4,
+          "dropout": 0.0
+        },
+        "Slice": {
+          "architecture": "masked_point_transolver_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "slices": 64,
+          "mlp_ratio": 4
+        },
+        "Patch": {
+          "architecture": "global_patch_transformer",
+          "input_channels": 12,
+          "output_channels": 1,
+          "dimensions": 2,
+          "patch_size": [
+            32,
+            32
+          ],
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "mlp_ratio": 4,
+          "scalar_dim": 4,
+          "dropout": 0.0,
+          "position_encoding": "normalized_linear_fourier_v1"
+        }
+      }
+    },
+    "4x4": {
+      "metrics": {
+        "LatentDDM": 0.08115162700414658,
+        "SNI-16": 0.011726642027497292,
+        "Point": 0.13738887012004852,
+        "Slice": 0.09301397949457169,
+        "Patch": 0.12474804371595383
+      },
+      "case_index": 7,
+      "selection": {
+        "rule": "input medoid in active fraction, boundary density, and log-k std",
+        "solution_or_prediction_used": false,
+        "feature_median": [
+          0.592254638671875,
+          0.042138287401574805,
+          0.19320566207170486
+        ],
+        "feature_mad": [
+          0.0106201171875,
+          0.002645177165354333,
+          0.01612093299627304
+        ],
+        "selected_distance": 0.465771742061038,
+        "selected_features": {
+          "dataset_index": 7,
+          "case_index": 7,
+          "active_fraction": 0.59307861328125,
+          "boundary_density": 0.04281496062992125,
+          "active_logk_std": 0.1870567798614502
+        }
+      },
+      "grid": 128,
+      "tile_count": 16,
+      "global_model_specs": {
+        "Point": {
+          "architecture": "darcy_masked_anchor_operator_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "anchors": 128,
+          "mlp_ratio": 4,
+          "dropout": 0.0
+        },
+        "Slice": {
+          "architecture": "masked_point_transolver_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "slices": 64,
+          "mlp_ratio": 4
+        },
+        "Patch": {
+          "architecture": "global_patch_transformer",
+          "input_channels": 12,
+          "output_channels": 1,
+          "dimensions": 2,
+          "patch_size": [
+            32,
+            32
+          ],
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "mlp_ratio": 4,
+          "scalar_dim": 4,
+          "dropout": 0.0,
+          "position_encoding": "normalized_linear_fourier_v1"
+        }
+      }
+    },
+    "8x8": {
+      "metrics": {
+        "LatentDDM": 0.059933289885520935,
+        "SNI-16": 0.025826862081885338,
+        "Point": 0.20055919885635376,
+        "Slice": 0.18907728791236877,
+        "Patch": 0.1781676560640335
+      },
+      "case_index": 29,
+      "selection": {
+        "rule": "input medoid in active fraction, boundary density, and log-k std",
+        "solution_or_prediction_used": false,
+        "feature_median": [
+          0.6072006225585938,
+          0.031893382352941174,
+          0.20449375361204147
+        ],
+        "feature_mad": [
+          0.00536346435546875,
+          0.0022212009803921594,
+          0.008082181215286255
+        ],
+        "selected_distance": 0.40707288254586793,
+        "selected_features": {
+          "dataset_index": 29,
+          "case_index": 29,
+          "active_fraction": 0.6070709228515625,
+          "boundary_density": 0.0322610294117647,
+          "active_logk_std": 0.20749318599700928
+        }
+      },
+      "grid": 256,
+      "tile_count": 64,
+      "global_model_specs": {
+        "Point": {
+          "architecture": "darcy_masked_anchor_operator_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "anchors": 128,
+          "mlp_ratio": 4,
+          "dropout": 0.0
+        },
+        "Slice": {
+          "architecture": "masked_point_transolver_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "slices": 64,
+          "mlp_ratio": 4
+        },
+        "Patch": {
+          "architecture": "global_patch_transformer",
+          "input_channels": 12,
+          "output_channels": 1,
+          "dimensions": 2,
+          "patch_size": [
+            32,
+            32
+          ],
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "mlp_ratio": 4,
+          "scalar_dim": 4,
+          "dropout": 0.0,
+          "position_encoding": "normalized_linear_fourier_v1"
+        }
+      }
+    },
+    "16x16": {
+      "metrics": {
+        "LatentDDM": 0.08738815039396286,
+        "SNI-16": 0.026184512302279472,
+        "Point": 0.18981322646141052,
+        "Slice": 0.20836962759494781,
+        "Patch": 0.17562197148799896
+      },
+      "case_index": 22,
+      "selection": {
+        "rule": "input medoid in active fraction, boundary density, and log-k std",
+        "solution_or_prediction_used": false,
+        "feature_median": [
+          0.6092205047607422,
+          0.026025103962818003,
+          0.2058023363351822
+        ],
+        "feature_mad": [
+          0.004215240478515625,
+          0.0021824547455968676,
+          0.0046732500195503235
+        ],
+        "selected_distance": 0.42576977791959725,
+        "selected_features": {
+          "dataset_index": 22,
+          "case_index": 22,
+          "active_fraction": 0.6077194213867188,
+          "boundary_density": 0.02592190557729941,
+          "active_logk_std": 0.20473431050777435
+        }
+      },
+      "grid": 512,
+      "tile_count": 256,
+      "global_model_specs": {
+        "Point": {
+          "architecture": "darcy_masked_anchor_operator_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "anchors": 128,
+          "mlp_ratio": 4,
+          "dropout": 0.0
+        },
+        "Slice": {
+          "architecture": "masked_point_transolver_v1",
+          "input_channels": 12,
+          "scalar_dim": 4,
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "slices": 64,
+          "mlp_ratio": 4
+        },
+        "Patch": {
+          "architecture": "global_patch_transformer",
+          "input_channels": 12,
+          "output_channels": 1,
+          "dimensions": 2,
+          "patch_size": [
+            32,
+            32
+          ],
+          "width": 256,
+          "depth": 8,
+          "heads": 8,
+          "mlp_ratio": 4,
+          "scalar_dim": 4,
+          "dropout": 0.0,
+          "position_encoding": "normalized_linear_fourier_v1"
+        }
+      }
+    }
+  },
+  "visual_scales": {
+    "solution_quantiles": [
+      0.2577982097864151,
+      0.7958801984786987
+    ]
+  }
+}

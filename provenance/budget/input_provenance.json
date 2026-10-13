@@ -1,0 +1,214 @@
+{
+  "codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_8x8_v1.h5": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_8x8_v1.h5",
+    "sha256": "1b04d7b61dd1fbe3ef0987725924770ba7cfc569472a43b94fda9cabfc1df601",
+    "split_shapes": {
+      "train": [
+        64,
+        1,
+        256,
+        256
+      ],
+      "val": [
+        64,
+        1,
+        256,
+        256
+      ],
+      "test": [
+        64,
+        1,
+        256,
+        256
+      ]
+    }
+  },
+  "codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_16x16_v1.h5": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_domain_extension_fixed_dx_16x16_v1.h5",
+    "sha256": "4429325dbc698abfc6c8b5db6d39a3ea4e9acd6018506846c65b4a84f1e1f236",
+    "split_shapes": {
+      "train": [
+        64,
+        1,
+        512,
+        512
+      ],
+      "val": [
+        64,
+        1,
+        512,
+        512
+      ],
+      "test": [
+        64,
+        1,
+        512,
+        512
+      ]
+    }
+  },
+  "codiffuse_Schwarz_Darcy/data/darcy_full_domain_face_96_v2.h5": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/data/darcy_full_domain_face_96_v2.h5",
+    "sha256": "07a9712c5b934c06e8109a3000578f59236939c00bf7b11c027edc313b5eabb7",
+    "split_shapes": {
+      "train": [
+        4000,
+        1,
+        96,
+        96
+      ],
+      "val": [
+        250,
+        1,
+        96,
+        96
+      ]
+    }
+  },
+  "sni_face_local_seed20260806/checkpoint.pt": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/sni_face_local_seed20260806/checkpoint.pt",
+    "sha256": "1a200548bec3d3aeaf345a87a2006bc2877c4453abe430f61abf2a928c50d9d1",
+    "model_spec": {
+      "proposal_width": 128,
+      "proposal_depth": 8,
+      "projector_width": 96,
+      "projector_depth": 6,
+      "cell_attention": false,
+      "core": 32,
+      "halo": 4,
+      "state_channels": 1,
+      "spatial_condition_channels": 28,
+      "scalar_condition_dim": 4,
+      "face_order": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "face_feature_blocks": [
+        "mask",
+        "normalized_value",
+        "physical_role",
+        "artificial_role"
+      ],
+      "source": "codiffuse_Schwarz_Airfoil.code_transfer.model"
+    },
+    "args": {
+      "data": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Darcy/data/darcy_complex_face_v2.h5",
+      "output_dir": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Darcy/outputs/sni_face_local_seed20260806",
+      "epochs": 80,
+      "samples_per_epoch": 4096,
+      "batch_size": 4,
+      "workers": 8,
+      "stats_cases": 512,
+      "validation_batches": 16,
+      "max_train_cases": null,
+      "max_val_cases": null,
+      "lr": 0.0002,
+      "min_lr": 2e-06,
+      "weight_decay": 0.0001,
+      "local_weight": 1.0,
+      "overlap_weight": 0.25,
+      "trace_weight": 0.5,
+      "flux_weight": 0.1,
+      "seed": 20260806,
+      "resume": null,
+      "cpu": false
+    }
+  },
+  "input_correction_modes4_spatial4_trace0p5_depth4_warm_seed20260811/checkpoint_best.pt": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/input_correction_modes4_spatial4_trace0p5_depth4_warm_seed20260811/checkpoint_best.pt",
+    "sha256": "dd524e23d399e037bc75f663ef54a1a26f391df2f0c8790a3363fb0512ba3a5b",
+    "model_spec": null,
+    "args": {
+      "data": "codiffuse_Schwarz_Darcy/data/darcy_full_domain_face_96_v2.h5",
+      "local_checkpoint": "codiffuse_Schwarz_Darcy/outputs/sni_face_local_seed20260806/checkpoint.pt",
+      "output_dir": "codiffuse_Schwarz_Darcy/outputs/input_correction_modes4_spatial4_trace0p5_depth4_warm_seed20260811",
+      "epochs": 32,
+      "samples_per_epoch": 2048,
+      "batch_size": 4,
+      "workers": 6,
+      "validation_batches": 24,
+      "max_train_cases": null,
+      "max_val_cases": null,
+      "core": 32,
+      "halo": 4,
+      "token_width": 128,
+      "heads": 4,
+      "communication_depth": 4,
+      "trace_modes": 4,
+      "spatial_token_bins": 4,
+      "assembly": "normalized_overlap",
+      "lr": 0.0002,
+      "weight_decay": 0.0001,
+      "trace_weight": 0.5,
+      "gradient_weight": 0.2,
+      "near_boundary_weight": 0.25,
+      "seed": 20260811,
+      "resume": null,
+      "initial_field_token_checkpoint": "codiffuse_Schwarz_Darcy/outputs/field_token_degree1_depth4_seed20260811/checkpoint.pt",
+      "cpu": false
+    }
+  },
+  "global_direct96_pilot_v1/selected/patch/checkpoint.pt": {
+    "resolved_path": "/orcd/pool/003/zituo/AMR_Diffusion_Foundation/workspace_offload/codiffuse_Schwarz_Darcy/outputs/global_direct96_pilot_v1/patch_w256_a32_seed20260805/checkpoint.pt",
+    "sha256": "6659068fa692d0beb2f903f8eba2da96ee416b0a664cdcce7fdb105117388feb",
+    "model_spec": {
+      "architecture": "global_patch_transformer",
+      "input_channels": 12,
+      "output_channels": 1,
+      "dimensions": 2,
+      "patch_size": [
+        32,
+        32
+      ],
+      "width": 256,
+      "depth": 8,
+      "heads": 8,
+      "mlp_ratio": 4,
+      "scalar_dim": 4,
+      "dropout": 0.0,
+      "position_encoding": "normalized_linear_fourier_v1"
+    },
+    "args": {
+      "data": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Darcy/data/darcy_full_domain_face_96_v2.h5",
+      "output_dir": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Darcy/outputs/global_direct96_pilot_v1/patch_w256_a32_seed20260805",
+      "epochs": 80,
+      "samples_per_epoch": 4096,
+      "batch_size": 16,
+      "workers": 8,
+      "stats_cases": 512,
+      "statistics_checkpoint": "/orcd/home/002/zituo/projects/AMR_Diffusion_Foundation/codiffuse_Schwarz_Darcy/outputs/global_vit_core32_face_v2_capacitymatched_seed20260805/checkpoint.pt",
+      "max_train_cases": null,
+      "max_val_cases": null,
+      "validation_sweeps": 1,
+      "validation_batches": 16,
+      "local_weight": 1.0,
+      "current_policy": "zero",
+      "use_discrete_residual": false,
+      "selection_residual_weight": 0.0,
+      "lr": 0.0002,
+      "min_lr": 2e-06,
+      "weight_decay": 0.0001,
+      "width": 256,
+      "depth": 8,
+      "heads": 8,
+      "slices": 32,
+      "mlp_ratio": 4,
+      "architecture": "global_vit",
+      "patch_size": 32,
+      "anchors": 64,
+      "dropout": 0.0,
+      "seed": 20260805,
+      "resume": null,
+      "initial_checkpoint": null,
+      "adaptation_mode": "full",
+      "low_rank": 4,
+      "low_rank_alpha": null,
+      "low_rank_dropout": 0.0,
+      "adaptation_provenance": null,
+      "training_stage": "full_domain",
+      "cpu": false
+    }
+  }
+}

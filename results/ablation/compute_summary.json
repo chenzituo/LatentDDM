@@ -1,0 +1,26 @@
+{
+  "8x8": {
+    "mean_minutes": {
+      "composition_only": 8.895006038872006,
+      "local_adapter_only": 13.814003785896217
+    },
+    "mean_peak_memory_mib": {
+      "composition_only": 2468.21044921875,
+      "local_adapter_only": 2591.318359375
+    },
+    "speed_ratio": 1.5530066787507204,
+    "time_reduction_fraction": 0.3560877659557612
+  },
+  "16x16": {
+    "mean_minutes": {
+      "composition_only": 33.50789985732279,
+      "local_adapter_only": 53.73794588397205
+    },
+    "mean_peak_memory_mib": {
+      "composition_only": 2569.94677734375,
+      "local_adapter_only": 2793.87646484375
+    },
+    "speed_ratio": 1.603739599103171,
+    "time_reduction_fraction": 0.3764573746515887
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "local_original": 3957666,
+  "local_proposal": 2755841,
+  "local_projector": 1201825,
+  "composition": 796400,
+  "composition_field_encoder": 56160,
+  "composition_spatial_encoder": 141312,
+  "composition_communication": 598928,
+  "local_adapters": 810794,
+  "composition_arm_forward_unique": 4754066,
+  "local_adapter_arm_forward_unique_unmerged": 5564860,
+  "composition_trainable_fraction": 0.16751976097933852,
+  "local_to_composition_ratio": 4.969445002511301
+}
